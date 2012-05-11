@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<title>XML to JSON - a converter</title>
+
+<script type="text/javascript" src="xml2json.js"></script>
+<script type="text/javascript">
+function asjson(){document.getElementById('jsonresult').innerHTML=xml2json.parser(document.forms[0].elements[0].value, '', 'compact');return false};
+function clearxmljform(){document.forms[0].elements[0].value="";asjson()}
+</script>
+
+</head>
+<body>
+<form name="xml2jsonform" method="post" action="javascript:void(0)" onSubmit="return asjson()">
+<textarea name="xml" class="treb" rows=12 cols=60 style="width:515px">
+<animals>
+	<dog>
+		<name>Rufus</name>
+		<breed>labrador</breed>
+	</dog>
+	<dog>
+		<name>Marty</name>
+		<breed>whippet</breed>
+	</dog>
+	<cat name="Matilda"/>
+</animals>
+</textarea><br/>
+<input type="button" class="treb" onFocus="this.blur()" name="clear" value="Clear" onClick="clearxmljform()">
+<input type="reset" class="treb" onFocus="this.blur()" name="reset" value="Reset" onClick="setTimeout('asjson()',100)">
+<input type="submit" class="treb" onFocus="this.blur()" name="submit" value="Convert to JSON">
+</form>
+<div class="pre"><textarea id="jsonresult" class="treb" rows=12 cols=60 style="width:100%"></textarea></div>
+</body>
+</html>

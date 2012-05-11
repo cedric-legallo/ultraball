@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Canvas - Sample</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" media="screen" href="ub.css"/>
+		<script type="text/javascript" src="DataView/DataView.js" ></script>
+		<script type="text/javascript" src="transparency/transparency.min.js" ></script>
+		<script type="text/javascript" src="xml2json/xml2json.js"></script>
+		<script type="text/javascript" src="zip/zip.js"></script>
+		<script type="text/javascript" src="zip/zip-fs.js"></script>
+		<script type="text/javascript" src="zip-ub.js"></script>
+		<script type="text/javascript" src="comments_fr.js" ></script>
+		<script type="text/javascript" src="comments_en.js" ></script>
+		<script type="text/javascript" src="lang.js" ></script>
+		<script type="text/javascript" src="controller.js" ></script>
+		<script type="text/javascript" src="logic/CONST.js" ></script>
+		<script type="text/javascript" src="logic/TeamSquare.js" ></script>
+		<script type="text/javascript" src="logic/DrawObj.js" ></script>
+		<script type="text/javascript" src="logic/Player.js" ></script>
+		<script type="text/javascript" src="logic/Ball.js" ></script>
+		<script type="text/javascript" src="logic/Game.js" ></script>
+		<script type="text/javascript" src="events.js" ></script>
+	</head>
+	<body  onload="init();">
+		<div class="loader" id="loader"></div>
+		<div id="home">
+			<img id="logoHome" src=""/><br/>
+			<span class="name"></span><br/>
+			<span class="score">0</span>
+		</div>
+		<div id="stadium">
+			<span id="date">2100-01</span><br/>
+			<span id="stadiumName"></span><br/>
+			<span id="audience">10000</span><br/>
+			<span id="interest">1000</span><br/>
+			<span id="challenge"></span>
+		</div>
+		<div id="away">
+			<img id="logoAway" src=""/><br/>
+			<span class="name"></span><br/>
+			<span class="score">0</span>
+		</div>
+		<div id="loadButton">
+			<form action="http://localhost:3000/match" name="fileForm" method="POST" enctype="multipart/form-data" target="iframe" onsubmit="return false;">
+				<input type="file" id="matchLoader" name="matchLoader"/>
+				<input type="hidden" id="dateFile" name="dateFile" value=""/>
+			</form>
+		</div>
+		<div id="buttons" class="hidden">
+			<input type="button" onclick="playPause();" id="playpause" value="play"/>
+			<br/>
+			<span class="speed"></span>
+			<input type="button" onclick="updateSpeed(-1);" id="slower" value="-"/>
+			<span id="speed"></span>
+			<input type="button" onclick="updateSpeed(1);" id="faster" value="+"/>
+			<br/>
+			<span class="quarter"></span>
+			<input type="button" onclick="updateQuarter(-1);" id="previousQuarter" value="-" disabled="true"/>
+			<span id="quarter">1</span>
+			<input type="button" onclick="updateQuarter(1);" id="nextQuarter" value="+"/>
+			<br/>
+			<span class="phase"></span>
+			<input type="button" onclick="updatePhase(-2);" id="previousPhase" value="-" disabled="true"/>
+			<span id="phase">0</span>
+			<input type="button" onclick="updatePhase(0);" value="+"/>
+			<br/>
+			<input type="checkbox" id="isSimultaneousMoves" value="true" checked="checked" onchange="updateIsSimultaneousMoves()"/><label class="simultaneous" for="isSimultaneousMoves"></label>
+			<br/>
+			<input type="checkbox" onchange="displayGrid(this)" id="displayGrid"/><label class="grid" for="displayGrid"></label>
+			<br/>
+			<input type="button" onclick="location.reload();" value="quit"/>
+		</div>
+		<div>
+			<div id="homeTeam"></div>
+			<div>
+				<img src="img/field.jpg" width="594" height="392" id="field"/>  
+				<img src="img/field_num.gif" width="594" height="392" id="numgrid" class="hidden"/>  
+				<div style="width:594px;height:392px;position:absolute;top:0px;z-index:2;">
+					<canvas id="ub" width="594" height="392">  
+					</canvas>  
+				</div>
+			</div>
+			<div id="awayTeam"></div>
+		</div>
+		
+		<div id="phrases">
+			<div id="phrasesLinks">
+				<div class="compTab" onclick="selectConsole('compPhrases')"></div><br/>
+			</div>
+			<textarea disabled="disabled" rows="20" cols="100" id="compPhrases"></textarea>
+		</div>
+		<iframe id="iframe" name="iframe" onload="onIframeLoad();"
+			style="position: absolute; left: 1px; top: 1px; height: 1px; width: 1px; visibility: hidden">
+		
+		</iframe>
+		<script id="scr"></script>
+	</body>
+</html>

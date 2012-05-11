@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xmlGame stadium="Breizhland" audience="10776" interest="1389" challengeAmnt="0" season="2123" competitionCode="shbcp" competitionTurn="2">
+  <xmlComposition code="167" fullname="Rennes Teddy Bears" name="Teddy Bears" home="true" color="4F2018">
+    <xmlGamePlayer jersey="1" jerseyNumber="8" name="&quot;Le Vieu&quot; Beete" code="15826" control="normal">
+      <xmlPlayerTransplant code="BIOGILLS" name="BIOGILLS" localization="0" index="0" />
+      <xmlPlayerTransplant code="CYBREFX1" name="CYBREFX1" localization="6" index="0" />
+      <xmlPlayerTransplant code="LASEREYE" name="LASEREYE" localization="7" index="0" />
+    </xmlGamePlayer>
+    <xmlGamePlayer jersey="2" jerseyNumber="33" name="J. Mukonkela" code="18989" control="normal" />
+    <xmlGamePlayer jersey="3" jerseyNumber="32" name="M. Hashim" code="17658" control="normal">
+      <xmlPlayerTransplant code="DERMARM1" name="DERMARM1" localization="1" index="0" />
+    </xmlGamePlayer>
+    <xmlGamePlayer jersey="4" jerseyNumber="31" name="D. Posser da Costa" code="16548" control="normal">
+      <xmlPlayerTransplant code="MEMCHIP1" name="MEMCHIP1" localization="0" index="0" />
+      <xmlPlayerTransplant code="CYBREFX1" name="CYBREFX1" localization="6" index="0" />
+    </xmlGamePlayer>
+    <xmlGamePlayer jersey="5" jerseyNumber="34" name="S. Perianna" code="17606" control="normal" />
+    <xmlGamePlayer jersey="6" jerseyNumber="3" name="A. Sandeno" code="15530" control="normal">
+      <xmlPlayerTransplant code="CYBREFX1" name="CYBREFX1" localization="6" index="0" />
+      <xmlPlayerTransplant code="LASEREYE" name="LASEREYE" localization="7" index="0" />
+    </xmlGamePlayer>
+    <xmlGamePlayer jersey="7" jerseyNumber="5" name="&quot;Ping&quot; Wangboonkerd" code="16749" control="transplant">
+      <xmlPlayerTransplant code="ARMPOCKT" name="ARMPOCKT" localization="2" index="0" />
+      <xmlPlayerTransplant code="CYBREFX1" name="CYBREFX1" localization="6" index="0" />
+    </xmlGamePlayer>
+    <xmlGamePlayer jersey="8" jerseyNumber="36" name="&quot;Dj&quot; do Sacramento Major" code="18930" control="normal" />
+  </xmlComposition>
+  <xmlComposition code="914" fullname="San Francisco Alcatraz S.F.L" name="Alcatraz S.F.L" home="false" color="FF8000">
+    <xmlGamePlayer jersey="1" jerseyNumber="21" name="A. Benevex" code="18342" control="normal">
+      <xmlPlayerTransplant code="CYBREFX1" name="CYBREFX1" localization="6" index="0" />
+      <xmlPlayerTransplant code="LASEREYE" name="LASEREYE" localization="7" index="0" />
+    </xmlGamePlayer>
+    <xmlGamePlayer jersey="2" jerseyNumber="17" name="A. Torlen" code="15416" control="normal">
+      <xmlPlayerTransplant code="ARMSREN1" name="ARMSREN1" localization="2" index="0" />
+      <xmlPlayerTransplant code="CYBREFX1" name="CYBREFX1" localization="6" index="0" />
+    </xmlGamePlayer>
+    <xmlGamePlayer jersey="3" jerseyNumber="23" name="R. Saroj" code="17433" control="normal">
+      <xmlPlayerTransplant code="CYBREFX1" name="CYBREFX1" localization="6" index="0" />
+      <xmlPlayerTransplant code="LASEREYE" name="LASEREYE" localization="7" index="0" />
+    </xmlGamePlayer>
+    <xmlGamePlayer jersey="4" jerseyNumber="20" name="A. Rukh" code="16718" control="transplant">
+      <xmlPlayerTransplant code="ARMPOCKT" name="ARMPOCKT" localization="2" index="0" />
+    </xmlGamePlayer>
+    <xmlGamePlayer jersey="5" jerseyNumber="08" name="M. Saylor" code="17336" control="normal" />
+    <xmlGamePlayer jersey="6" jerseyNumber="14" name="B. Contiguglia" code="17579" control="normal" />
+    <xmlGamePlayer jersey="7" jerseyNumber="25" name="R. Hjelmseth" code="17947" control="normal" />
+    <xmlGamePlayer jersey="8" jerseyNumber="24" name="G. Lund-Vang" code="16410" control="normal" />
+  </xmlComposition>
+  <xmlQuarter number="1">
+    <xmlTurn number="1" ball="0" homeScore="0" awayScore="0">
+      <xmlPlayerPosition jersey="6" initiative="56" home="true" position="10" grounded="false" ball="false" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="55" home="true" position="19" grounded="false" ball="true" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="45" home="true" position="37" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="36" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="29" home="true" position="1" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="28" home="true" position="28" grounded="false" ball="false" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="20" home="false" position="45" grounded="false" ball="false" shapePercent="47" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="9" grounded="false" ball="false" shapePercent="50" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="18" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlAction number="1" commentId="3" actorHome="true" actorJersey="6">
+        <xmlMove from="10" to="2" />
+      </xmlAction>
+      <xmlAction number="2" commentId="1" actorHome="true" actorJersey="1">
+        <xmlMove from="19" to="20" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="true" actorJersey="2">
+        <xmlMove from="37" to="29" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="false" actorJersey="8">
+        <xmlMove from="36" to="35" destination="player" destinationJersey="3" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="5" commentId="2" actorHome="true" actorJersey="8">
+        <xmlMove from="1" to="11" destination="player" destinationJersey="8" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlMove from="28" to="29" destination="player" destinationJersey="8" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="false" actorJersey="5">
+        <xmlMove from="45" to="35" destination="player" destinationJersey="2" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="2">
+        <xmlMove from="9" to="17" destination="player" destinationJersey="8" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="false" actorJersey="1">
+        <xmlMove from="18" to="8" destination="player" destinationJersey="6" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="false" actorJersey="6">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="20" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="2" ball="0" homeScore="0" awayScore="0">
+      <xmlPlayerPosition jersey="6" initiative="56" home="true" position="2" grounded="false" ball="false" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="55" home="true" position="20" grounded="false" ball="true" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="45" home="true" position="29" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="35" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="29" home="true" position="11" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="28" home="true" position="29" grounded="false" ball="false" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="20" home="false" position="35" grounded="false" ball="false" shapePercent="47" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="17" grounded="false" ball="false" shapePercent="50" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="8" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="2" to="3" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="true" actorJersey="1">
+        <xmlMove from="20" to="21" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="true" actorJersey="2">
+        <xmlMove from="29" to="30" destination="player" destinationJersey="8" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="4" commentId="3" actorHome="false" actorJersey="8">
+        <xmlMove from="35" to="34" destination="player" destinationJersey="3" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="true" actorJersey="8">
+        <xmlMove from="11" to="21" destination="player" destinationJersey="8" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="true" actorJersey="3">
+        <xmlMove from="29" to="30" destination="player" destinationJersey="8" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="7" commentId="1" actorHome="false" actorJersey="5">
+        <xmlMove from="35" to="34" destination="player" destinationJersey="2" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="2">
+        <xmlMove from="17" to="25" destination="player" destinationJersey="8" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="false" actorJersey="1">
+        <xmlMove from="8" to="7" destination="player" destinationJersey="6" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="false" actorJersey="6">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="21" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="3" ball="0" homeScore="0" awayScore="0">
+      <xmlPlayerPosition jersey="6" initiative="56" home="true" position="3" grounded="false" ball="false" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="55" home="true" position="21" grounded="false" ball="true" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="45" home="true" position="30" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="34" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="29" home="true" position="21" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="28" home="true" position="30" grounded="false" ball="false" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="20" home="false" position="34" grounded="false" ball="false" shapePercent="47" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="25" grounded="false" ball="false" shapePercent="50" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="7" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="3" to="4" />
+      </xmlAction>
+      <xmlAction number="2" commentId="1" actorHome="true" actorJersey="1">
+        <xmlMove from="21" to="22" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="true" actorJersey="2">
+        <xmlMove from="30" to="22" destination="player" destinationJersey="2" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="false" actorJersey="8">
+        <xmlMove from="34" to="33" destination="player" destinationJersey="3" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="5" commentId="2" actorHome="true" actorJersey="8">
+        <xmlMove from="21" to="13" destination="player" destinationJersey="1" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="true" actorJersey="3">
+        <xmlMove from="30" to="31" destination="player" destinationJersey="8" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="7" commentId="1" actorHome="false" actorJersey="5">
+        <xmlMove from="34" to="24" destination="player" destinationJersey="2" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="false" actorJersey="2">
+        <xmlMove from="25" to="15" destination="player" destinationJersey="8" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="false" actorJersey="1">
+        <xmlMove from="7" to="6" destination="player" destinationJersey="6" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="false" actorJersey="6">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="22" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="4" ball="0" homeScore="0" awayScore="0">
+      <xmlPlayerPosition jersey="6" initiative="56" home="true" position="4" grounded="false" ball="false" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="55" home="true" position="22" grounded="false" ball="true" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="45" home="true" position="22" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="33" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="29" home="true" position="13" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="28" home="true" position="31" grounded="false" ball="false" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="20" home="false" position="24" grounded="false" ball="false" shapePercent="47" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="15" grounded="false" ball="false" shapePercent="50" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="6" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="4" to="5" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="true" actorJersey="1">
+        <xmlMove from="22" to="23" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="true" actorJersey="2">
+        <xmlMove from="22" to="23" destination="player" destinationJersey="5" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="false" actorJersey="8">
+        <xmlMove from="33" to="32" destination="player" destinationJersey="3" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="true" actorJersey="8">
+        <xmlMove from="13" to="5" destination="player" destinationJersey="1" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlMove from="31" to="32" destination="player" destinationJersey="8" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="7" commentId="1" actorHome="false" actorJersey="5">
+        <xmlMove from="24" to="23" destination="player" destinationJersey="2" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="8" commentId="3" actorHome="false" actorJersey="2">
+        <xmlMove from="15" to="5" destination="player" destinationJersey="8" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="false" actorJersey="1">
+        <xmlMove from="6" to="5" destination="player" destinationJersey="6" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="false" actorJersey="6">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="11" commentId="1" actorHome="true" actorJersey="1">
+        <xmlPass from="23" toHome="true" toJersey="6" type="player" shape="Straight" receiverHome="true" receiverJersey="6" />
+      </xmlAction>
+      <xmlAction number="12" commentId="1" actorHome="true" actorJersey="2">
+        <xmlAttack kind="plaquage" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="1" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="true" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="5" ball="0" homeScore="0" awayScore="0">
+      <xmlPlayerPosition jersey="6" initiative="56" home="true" position="5" grounded="false" ball="true" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="55" home="true" position="23" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="45" home="true" position="23" grounded="true" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="32" grounded="true" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="29" home="true" position="5" grounded="true" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="28" home="true" position="32" grounded="true" ball="false" shapePercent="78" lifePercent="99" />
+      <xmlPlayerPosition jersey="5" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="47" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="5" grounded="true" ball="false" shapePercent="50" lifePercent="99" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="5" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlAction number="1" commentId="3" actorHome="true" actorJersey="6">
+        <xmlMove from="5" to="6" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="true" actorJersey="1">
+        <xmlMove from="23" to="24" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="true" actorJersey="2">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="false" actorJersey="8">
+        <xmlStandUp position="32" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="true" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="true" actorJersey="3">
+        <xmlStandUp position="32" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="5">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="false" actorJersey="2">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="false" actorJersey="1">
+        <xmlMove from="5" to="6" destination="player" destinationJersey="6" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="false" actorJersey="6">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="true" actorJersey="6">
+        <xmlKeepBall position="6" />
+      </xmlAction>
+      <xmlAction number="12" commentId="2" actorHome="true" actorJersey="2">
+        <xmlAttack kind="plaquage" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="true" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="6" ball="0" homeScore="0" awayScore="0">
+      <xmlPlayerPosition jersey="6" initiative="56" home="true" position="6" grounded="false" ball="true" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="55" home="true" position="24" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="45" home="true" position="23" grounded="true" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="32" grounded="true" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="29" home="true" position="5" grounded="true" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="28" home="true" position="32" grounded="true" ball="false" shapePercent="78" lifePercent="97" />
+      <xmlPlayerPosition jersey="5" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="47" lifePercent="97" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="5" grounded="true" ball="false" shapePercent="50" lifePercent="97" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="6" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlAction number="1" commentId="3" actorHome="true" actorJersey="6">
+        <xmlMove from="6" to="7" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="true" actorJersey="1">
+        <xmlMove from="24" to="25" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="true" actorJersey="2">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="4" commentId="3" actorHome="false" actorJersey="8">
+        <xmlStandUp position="32" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="true" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="true" actorJersey="3">
+        <xmlStandUp position="32" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="5">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="false" actorJersey="2">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="false" actorJersey="1">
+        <xmlMove from="6" to="7" destination="player" destinationJersey="6" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="false" actorJersey="6">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="true" actorJersey="6">
+        <xmlKeepBall position="7" />
+      </xmlAction>
+      <xmlAction number="12" commentId="3" actorHome="true" actorJersey="2">
+        <xmlAttack kind="plaquage" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="1" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="3" actorHome="true" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="7" ball="0" homeScore="0" awayScore="0">
+      <xmlPlayerPosition jersey="6" initiative="56" home="true" position="7" grounded="false" ball="true" shapePercent="78" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="55" home="true" position="25" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="45" home="true" position="23" grounded="true" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="32" grounded="true" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="29" home="true" position="5" grounded="true" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="28" home="true" position="32" grounded="true" ball="false" shapePercent="78" lifePercent="95" />
+      <xmlPlayerPosition jersey="5" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="47" lifePercent="96" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="5" grounded="true" ball="false" shapePercent="50" lifePercent="96" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="7" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="7" to="8" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="true" actorJersey="1">
+        <xmlMove from="25" to="26" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="true" actorJersey="2">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="false" actorJersey="8">
+        <xmlStandUp position="32" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="true" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlStandUp position="32" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="5">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="false" actorJersey="2">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="false" actorJersey="1">
+        <xmlMove from="7" to="8" destination="player" destinationJersey="6" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="false" actorJersey="6">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="true" actorJersey="6">
+        <xmlPass from="8" toHome="true" toJersey="1" type="player" shape="Straight" receiverHome="true" receiverJersey="1" />
+      </xmlAction>
+      <xmlAction number="12" commentId="1" actorHome="true" actorJersey="1">
+        <xmlShoot kind="straight" points="5" success="true" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlQuarterStatistics homeTeam="true" points="5" />
+    <xmlQuarterStatistics homeTeam="false" points="0" />
+  </xmlQuarter>
+  <xmlQuarter number="2">
+    <xmlTurn number="1" ball="0" homeScore="5" awayScore="0">
+      <xmlPlayerPosition jersey="5" initiative="43" home="true" position="9" grounded="false" ball="false" shapePercent="77" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="43" home="true" position="45" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="43" home="true" position="36" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="43" home="true" position="27" grounded="false" ball="false" shapePercent="63" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="43" home="true" position="18" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="19" grounded="false" ball="true" shapePercent="32" lifePercent="96" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="1" grounded="false" ball="false" shapePercent="35" lifePercent="96" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="37" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="28" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="20" home="false" position="10" grounded="false" ball="false" shapePercent="64" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="true" actorJersey="5">
+        <xmlMove from="9" to="8" destination="player" destinationJersey="2" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="true" actorJersey="4">
+        <xmlMove from="45" to="44" destination="player" destinationJersey="1" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="true" actorJersey="2">
+        <xmlMove from="36" to="35" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="true" actorJersey="6">
+        <xmlMove from="27" to="26" destination="player" destinationJersey="5" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="true" actorJersey="1">
+        <xmlMove from="18" to="17" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="false" actorJersey="5">
+        <xmlMove from="19" to="20" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="2">
+        <xmlMove from="1" to="11" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="1">
+        <xmlMove from="37" to="29" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="false" actorJersey="6">
+        <xmlMove from="28" to="20" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="false" actorJersey="3">
+        <xmlMove from="10" to="20" />
+      </xmlAction>
+      <xmlAction number="11" commentId="1" actorHome="false" actorJersey="5">
+        <xmlKeepBall position="20" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="2" ball="0" homeScore="5" awayScore="0">
+      <xmlPlayerPosition jersey="5" initiative="43" home="true" position="8" grounded="false" ball="false" shapePercent="77" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="43" home="true" position="44" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="43" home="true" position="35" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="43" home="true" position="26" grounded="false" ball="false" shapePercent="63" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="43" home="true" position="17" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="20" grounded="false" ball="true" shapePercent="32" lifePercent="96" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="11" grounded="false" ball="false" shapePercent="35" lifePercent="96" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="29" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="20" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="20" home="false" position="20" grounded="false" ball="false" shapePercent="64" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="true" actorJersey="5">
+        <xmlMove from="8" to="16" destination="player" destinationJersey="2" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="true" actorJersey="4">
+        <xmlMove from="44" to="34" destination="player" destinationJersey="1" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="true" actorJersey="2">
+        <xmlMove from="35" to="25" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="26" to="25" destination="player" destinationJersey="5" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="true" actorJersey="1">
+        <xmlMove from="17" to="25" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="false" actorJersey="5">
+        <xmlMove from="20" to="21" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="false" actorJersey="2">
+        <xmlMove from="11" to="21" />
+      </xmlAction>
+      <xmlAction number="8" commentId="3" actorHome="false" actorJersey="1">
+        <xmlMove from="29" to="21" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="false" actorJersey="6">
+        <xmlMove from="20" to="21" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="false" actorJersey="3">
+        <xmlMove from="20" to="21" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="false" actorJersey="5">
+        <xmlKeepBall position="21" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="3" ball="0" homeScore="5" awayScore="0">
+      <xmlPlayerPosition jersey="5" initiative="43" home="true" position="16" grounded="false" ball="false" shapePercent="77" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="43" home="true" position="34" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="43" home="true" position="25" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="43" home="true" position="25" grounded="false" ball="false" shapePercent="63" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="43" home="true" position="25" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="21" grounded="false" ball="true" shapePercent="32" lifePercent="96" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="21" grounded="false" ball="false" shapePercent="35" lifePercent="96" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="21" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="21" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="20" home="false" position="21" grounded="false" ball="false" shapePercent="64" lifePercent="100" />
+      <xmlAction number="1" commentId="2" actorHome="true" actorJersey="5">
+        <xmlMove from="16" to="24" destination="player" destinationJersey="2" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="true" actorJersey="4">
+        <xmlMove from="34" to="24" destination="player" destinationJersey="1" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="true" actorJersey="2">
+        <xmlMove from="25" to="24" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="25" to="24" destination="player" destinationJersey="5" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="true" actorJersey="1">
+        <xmlMove from="25" to="24" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="false" actorJersey="5">
+        <xmlMove from="21" to="22" />
+      </xmlAction>
+      <xmlAction number="7" commentId="1" actorHome="false" actorJersey="2">
+        <xmlMove from="21" to="22" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="1">
+        <xmlMove from="21" to="22" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="false" actorJersey="6">
+        <xmlMove from="21" to="22" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="false" actorJersey="3">
+        <xmlMove from="21" to="22" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="false" actorJersey="5">
+        <xmlKeepBall position="22" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="4" ball="0" homeScore="5" awayScore="0">
+      <xmlPlayerPosition jersey="5" initiative="43" home="true" position="24" grounded="false" ball="false" shapePercent="77" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="43" home="true" position="24" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="2" initiative="43" home="true" position="24" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="43" home="true" position="24" grounded="false" ball="false" shapePercent="63" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="43" home="true" position="24" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="22" grounded="false" ball="true" shapePercent="32" lifePercent="96" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="22" grounded="false" ball="false" shapePercent="35" lifePercent="96" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="22" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="22" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="20" home="false" position="22" grounded="false" ball="false" shapePercent="64" lifePercent="100" />
+      <xmlAction number="1" commentId="2" actorHome="true" actorJersey="5">
+        <xmlMove from="24" to="23" destination="player" destinationJersey="2" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="2" commentId="1" actorHome="true" actorJersey="4">
+        <xmlMove from="24" to="23" destination="player" destinationJersey="1" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="true" actorJersey="2">
+        <xmlMove from="24" to="23" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="24" to="23" destination="player" destinationJersey="5" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="true" actorJersey="1">
+        <xmlMove from="24" to="23" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="false" actorJersey="5">
+        <xmlMove from="22" to="23" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="2">
+        <xmlMove from="22" to="23" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="1">
+        <xmlMove from="22" to="23" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="false" actorJersey="6">
+        <xmlMove from="22" to="23" />
+      </xmlAction>
+      <xmlAction number="10" commentId="2" actorHome="false" actorJersey="3">
+        <xmlMove from="22" to="23" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" dropsBall="true" />
+      </xmlAction>
+      <xmlAction number="12" commentId="3" actorHome="true" actorJersey="4">
+        <xmlTakeBall position="23" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="true" actorJersey="1">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="3" actorHome="false" actorJersey="1">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="4" success="true" actorPosition="down" victimPosition="down" killPoints="0" dropsBall="true" />
+      </xmlAction>
+      <xmlAction number="16" commentId="3" actorHome="false" actorJersey="3">
+        <xmlTakeBall position="23" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="5" ball="0" homeScore="5" awayScore="0">
+      <xmlPlayerPosition jersey="5" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="77" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="85" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="43" home="true" position="23" grounded="false" ball="false" shapePercent="63" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="23" grounded="true" ball="false" shapePercent="32" lifePercent="94" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="35" lifePercent="94" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="99" />
+      <xmlPlayerPosition jersey="3" initiative="20" home="false" position="23" grounded="false" ball="true" shapePercent="64" lifePercent="100" />
+      <xmlAction number="1" commentId="3" actorHome="true" actorJersey="5">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="2" commentId="1" actorHome="true" actorJersey="4">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="true" actorJersey="2">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="true" actorJersey="6">
+        <xmlWait position="23" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="true" actorJersey="1">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="false" actorJersey="5">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="7" commentId="1" actorHome="false" actorJersey="2">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="1">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="false" actorJersey="6">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="false" actorJersey="3">
+        <xmlMove from="23" to="24" />
+      </xmlAction>
+      <xmlAction number="11" commentId="1" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="3" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="2" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="1" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="true" actorJersey="1">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="2" actorHome="false" actorJersey="3">
+        <xmlKeepBall position="24" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="6" ball="0" homeScore="5" awayScore="0">
+      <xmlPlayerPosition jersey="5" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="77" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="85" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="43" home="true" position="23" grounded="false" ball="false" shapePercent="63" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="23" grounded="true" ball="false" shapePercent="32" lifePercent="93" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="35" lifePercent="93" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="97" />
+      <xmlPlayerPosition jersey="3" initiative="20" home="false" position="24" grounded="false" ball="true" shapePercent="64" lifePercent="100" />
+      <xmlAction number="1" commentId="3" actorHome="true" actorJersey="5">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="true" actorJersey="4">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="true" actorJersey="2">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="4" commentId="3" actorHome="true" actorJersey="6">
+        <xmlWait position="23" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="true" actorJersey="1">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="false" actorJersey="5">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="7" commentId="1" actorHome="false" actorJersey="2">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="1">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="false" actorJersey="6">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="false" actorJersey="3">
+        <xmlMove from="24" to="25" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="1" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="2" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="2" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="1" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="3" actorHome="true" actorJersey="1">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="2" actorHome="false" actorJersey="5">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="5" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="2" actorHome="false" actorJersey="3">
+        <xmlKeepBall position="25" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="7" ball="0" homeScore="5" awayScore="0">
+      <xmlPlayerPosition jersey="5" initiative="43" home="true" position="23" grounded="false" ball="false" shapePercent="77" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="85" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="6" initiative="43" home="true" position="23" grounded="false" ball="false" shapePercent="63" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="43" home="true" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="23" grounded="true" ball="false" shapePercent="32" lifePercent="93" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="35" lifePercent="91" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="97" />
+      <xmlPlayerPosition jersey="6" initiative="20" home="false" position="23" grounded="true" ball="false" shapePercent="70" lifePercent="96" />
+      <xmlPlayerPosition jersey="3" initiative="20" home="false" position="25" grounded="false" ball="true" shapePercent="64" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="true" actorJersey="5">
+        <xmlWait position="23" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="true" actorJersey="4">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="true" actorJersey="2">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="4" commentId="3" actorHome="true" actorJersey="6">
+        <xmlWait position="23" />
+      </xmlAction>
+      <xmlAction number="5" commentId="2" actorHome="true" actorJersey="1">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="false" actorJersey="5">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="2">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="1">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="false" actorJersey="6">
+        <xmlStandUp position="23" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="false" actorJersey="3">
+        <xmlMove from="25" to="26" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="2" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="2" actorHome="true" actorJersey="1">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="1" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="2" actorHome="false" actorJersey="3">
+        <xmlShoot kind="straight" points="5" success="true" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlQuarterStatistics homeTeam="true" points="5" />
+    <xmlQuarterStatistics homeTeam="false" points="5" />
+  </xmlQuarter>
+  <xmlQuarter number="3">
+    <xmlTurn number="1" ball="0" homeScore="5" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="9" grounded="false" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="45" grounded="false" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="36" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="18" grounded="false" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="91" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="1" grounded="false" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="37" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="28" grounded="false" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="10" grounded="false" ball="false" shapePercent="55" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="19" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="false" actorJersey="6">
+        <xmlMove from="9" to="17" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="false" actorJersey="3">
+        <xmlWait position="45" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="false" actorJersey="7">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="false" actorJersey="8">
+        <xmlMove from="36" to="26" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="false" actorJersey="5">
+        <xmlWait position="18" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlMove from="1" to="2" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="true" actorJersey="8">
+        <xmlMove from="37" to="29" destination="player" destinationJersey="8" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="8" commentId="3" actorHome="true" actorJersey="4">
+        <xmlMove from="28" to="20" destination="player" destinationJersey="8" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="true" actorJersey="2">
+        <xmlMove from="10" to="2" />
+      </xmlAction>
+      <xmlAction number="10" commentId="2" actorHome="true" actorJersey="1">
+        <xmlMove from="19" to="11" />
+      </xmlAction>
+      <xmlAction number="11" commentId="1" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="11" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="2" ball="0" homeScore="5" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="17" grounded="false" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="45" grounded="false" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="26" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="18" grounded="false" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="91" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="2" grounded="false" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="29" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="20" grounded="false" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="2" grounded="false" ball="false" shapePercent="55" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="11" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="false" actorJersey="6">
+        <xmlMove from="17" to="16" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="false" actorJersey="3">
+        <xmlWait position="45" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="false" actorJersey="7">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="false" actorJersey="8">
+        <xmlMove from="26" to="16" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="5" commentId="2" actorHome="false" actorJersey="5">
+        <xmlMove from="18" to="17" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="true" actorJersey="3">
+        <xmlMove from="2" to="3" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="true" actorJersey="8">
+        <xmlMove from="29" to="21" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="true" actorJersey="4">
+        <xmlMove from="20" to="12" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="2">
+        <xmlMove from="2" to="3" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="true" actorJersey="1">
+        <xmlMove from="11" to="3" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="3" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="3" ball="0" homeScore="5" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="16" grounded="false" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="45" grounded="false" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="16" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="17" grounded="false" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="91" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="3" grounded="false" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="21" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="12" grounded="false" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="3" grounded="false" ball="false" shapePercent="55" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="3" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="3" actorHome="false" actorJersey="6">
+        <xmlMove from="16" to="6" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="false" actorJersey="3">
+        <xmlMove from="45" to="35" destination="player" destinationJersey="8" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="false" actorJersey="7">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="false" actorJersey="8">
+        <xmlMove from="16" to="6" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="false" actorJersey="5">
+        <xmlMove from="17" to="7" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlMove from="3" to="4" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="true" actorJersey="8">
+        <xmlMove from="21" to="13" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="true" actorJersey="4">
+        <xmlMove from="12" to="4" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="2">
+        <xmlMove from="3" to="4" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="true" actorJersey="1">
+        <xmlMove from="3" to="4" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="4" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="4" ball="0" homeScore="5" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="6" grounded="false" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="35" grounded="false" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="6" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="7" grounded="false" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="91" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="4" grounded="false" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="13" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="4" grounded="false" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="4" grounded="false" ball="false" shapePercent="55" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="4" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="2" actorHome="false" actorJersey="6">
+        <xmlMove from="6" to="5" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="false" actorJersey="3">
+        <xmlMove from="35" to="25" destination="player" destinationJersey="8" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="false" actorJersey="7">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="false" actorJersey="8">
+        <xmlMove from="6" to="5" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="false" actorJersey="5">
+        <xmlMove from="7" to="6" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="true" actorJersey="3">
+        <xmlMove from="4" to="5" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="true" actorJersey="8">
+        <xmlMove from="13" to="5" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="8" commentId="3" actorHome="true" actorJersey="4">
+        <xmlMove from="4" to="5" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="true" actorJersey="2">
+        <xmlMove from="4" to="5" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="true" actorJersey="1">
+        <xmlMove from="4" to="5" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="false" actorJersey="6">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="1" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="1" actorHome="true" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="true" actorJersey="8">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="3" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="5" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="5" ball="0" homeScore="5" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="5" grounded="true" ball="false" shapePercent="55" lifePercent="94" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="25" grounded="false" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="99" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="6" grounded="false" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="91" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="5" grounded="false" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="5" grounded="false" ball="false" shapePercent="55" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="5" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="false" actorJersey="6">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="false" actorJersey="3">
+        <xmlMove from="25" to="15" destination="player" destinationJersey="4" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="false" actorJersey="7">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="false" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="false" actorJersey="5">
+        <xmlMove from="6" to="5" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="true" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="true" actorJersey="4">
+        <xmlWait position="5" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="2">
+        <xmlMove from="5" to="6" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="true" actorJersey="1">
+        <xmlBlockedMove position="5" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="false" actorJersey="6">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="1" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="3" actorHome="false" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="1" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="1" actorHome="true" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="true" actorJersey="8">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="2" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="2" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="5" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="6" ball="0" homeScore="5" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="5" grounded="true" ball="false" shapePercent="55" lifePercent="93" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="15" grounded="false" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="97" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="5" grounded="true" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="90" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="6" grounded="false" ball="false" shapePercent="55" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="5" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="3" actorHome="false" actorJersey="6">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="false" actorJersey="3">
+        <xmlMove from="15" to="6" destination="player" destinationJersey="2" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="false" actorJersey="7">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="4" commentId="3" actorHome="false" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="false" actorJersey="5">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="true" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="8" commentId="3" actorHome="true" actorJersey="4">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="2">
+        <xmlBlockedMove position="6" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="true" actorJersey="1">
+        <xmlMove from="5" to="6" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="false" actorJersey="6">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="4" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="1" actorHome="false" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="1" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="false" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="true" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="2" actorHome="true" actorJersey="8">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="6" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="1" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="17" commentId="1" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="18" commentId="3" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="6" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="7" ball="0" homeScore="5" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="5" grounded="false" ball="false" shapePercent="55" lifePercent="93" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="6" grounded="false" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="96" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="5" grounded="true" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="89" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="5" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="6" grounded="false" ball="false" shapePercent="55" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="6" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="2" actorHome="false" actorJersey="6">
+        <xmlMove from="5" to="6" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="false" actorJersey="3">
+        <xmlWait position="6" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="false" actorJersey="7">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="false" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="5" commentId="2" actorHome="false" actorJersey="5">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="true" actorJersey="8">
+        <xmlMove from="5" to="6" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="true" actorJersey="4">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="2">
+        <xmlMove from="6" to="7" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="true" actorJersey="1">
+        <xmlBlockedMove position="6" />
+      </xmlAction>
+      <xmlAction number="11" commentId="1" actorHome="false" actorJersey="6">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="1" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="3" actorHome="false" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="1" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="2" actorHome="false" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="4" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="true" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="1" actorHome="true" actorJersey="8">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="2" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="17" commentId="2" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="6" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="8" ball="0" homeScore="5" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="6" grounded="false" ball="false" shapePercent="55" lifePercent="93" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="6" grounded="false" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="94" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="5" grounded="true" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="87" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="6" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="7" grounded="false" ball="false" shapePercent="55" lifePercent="100" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="6" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="2" actorHome="false" actorJersey="6">
+        <xmlWait position="6" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="false" actorJersey="3">
+        <xmlWait position="6" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="false" actorJersey="7">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="false" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="5" commentId="2" actorHome="false" actorJersey="5">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="true" actorJersey="8">
+        <xmlWait position="6" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="true" actorJersey="4">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="true" actorJersey="2">
+        <xmlMove from="7" to="6" destination="player" destinationJersey="6" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="true" actorJersey="1">
+        <xmlMove from="6" to="7" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="false" actorJersey="6">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="1" actorHome="false" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="8" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="2" actorHome="false" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="3" actorHome="true" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="1" actorHome="true" actorJersey="8">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="3" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="17" commentId="1" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="7" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="9" ball="0" homeScore="5" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="6" grounded="true" ball="false" shapePercent="55" lifePercent="93" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="6" grounded="false" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="92" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="5" grounded="true" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="85" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="6" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="6" grounded="true" ball="false" shapePercent="55" lifePercent="98" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="7" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="false" actorJersey="6">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="false" actorJersey="3">
+        <xmlWait position="6" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="false" actorJersey="7">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="false" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="false" actorJersey="5">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="true" actorJersey="8">
+        <xmlWait position="6" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="true" actorJersey="4">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="2">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="10" commentId="2" actorHome="true" actorJersey="1">
+        <xmlMove from="7" to="8" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="false" actorJersey="6">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="1" actorHome="false" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="2" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="false" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="4" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="2" actorHome="true" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="2" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="1" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="17" commentId="1" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="8" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="10" ball="0" homeScore="5" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="6" grounded="true" ball="false" shapePercent="55" lifePercent="93" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="6" grounded="false" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="90" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="5" grounded="true" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="83" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="6" grounded="true" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="6" grounded="false" ball="false" shapePercent="55" lifePercent="98" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="8" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="2" actorHome="false" actorJersey="6">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="false" actorJersey="3">
+        <xmlWait position="6" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="false" actorJersey="7">
+        <xmlWait position="27" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="false" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="false" actorJersey="5">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="true" actorJersey="3">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="true" actorJersey="8">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="true" actorJersey="4">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="true" actorJersey="2">
+        <xmlWait position="6" />
+      </xmlAction>
+      <xmlAction number="10" commentId="2" actorHome="true" actorJersey="1">
+        <xmlMove from="8" to="9" />
+      </xmlAction>
+      <xmlAction number="11" commentId="1" actorHome="false" actorJersey="6">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="1" actorHome="false" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="1" actorHome="false" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="4" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="true" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="3" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="2" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="9" />
+      </xmlAction>
+      <xmlAction number="17" commentId="3" actorHome="true" actorJersey="1">
+        <xmlBonus points="1" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="11" ball="0" homeScore="6" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="6" grounded="true" ball="false" shapePercent="55" lifePercent="93" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="6" grounded="true" ball="false" shapePercent="49" lifePercent="100" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="27" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="88" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="5" grounded="true" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="81" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="6" grounded="true" ball="false" shapePercent="70" lifePercent="97" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="6" grounded="true" ball="false" shapePercent="55" lifePercent="97" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="9" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="false" actorJersey="6">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="false" actorJersey="3">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="false" actorJersey="7">
+        <xmlMove from="27" to="18" destination="player" destinationJersey="1" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="false" actorJersey="8">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="false" actorJersey="5">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="true" actorJersey="3">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="true" actorJersey="8">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="true" actorJersey="4">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="true" actorJersey="2">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="true" actorJersey="1">
+        <xmlWait position="9" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="false" actorJersey="6">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="2" actorHome="false" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="2" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="false" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="4" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="3" actorHome="true" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="3" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="3" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="17" commentId="3" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="9" />
+      </xmlAction>
+      <xmlAction number="18" commentId="3" actorHome="true" actorJersey="1">
+        <xmlBonus points="1" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="12" ball="0" homeScore="7" awayScore="5">
+      <xmlPlayerPosition jersey="6" initiative="37" home="false" position="6" grounded="true" ball="false" shapePercent="55" lifePercent="93" />
+      <xmlPlayerPosition jersey="3" initiative="37" home="false" position="6" grounded="true" ball="false" shapePercent="49" lifePercent="98" />
+      <xmlPlayerPosition jersey="7" initiative="36" home="false" position="18" grounded="false" ball="false" shapePercent="85" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="32" home="false" position="5" grounded="false" ball="false" shapePercent="70" lifePercent="88" />
+      <xmlPlayerPosition jersey="5" initiative="28" home="false" position="5" grounded="true" ball="false" shapeStatus="tired" shapePercent="17" lifePercent="79" />
+      <xmlPlayerPosition jersey="3" initiative="0" home="true" position="5" grounded="true" ball="false" shapePercent="63" lifePercent="95" />
+      <xmlPlayerPosition jersey="8" initiative="0" home="true" position="6" grounded="true" ball="false" shapePercent="70" lifePercent="95" />
+      <xmlPlayerPosition jersey="4" initiative="0" home="true" position="5" grounded="false" ball="false" shapePercent="70" lifePercent="98" />
+      <xmlPlayerPosition jersey="2" initiative="0" home="true" position="6" grounded="true" ball="false" shapePercent="55" lifePercent="97" />
+      <xmlPlayerPosition jersey="1" initiative="0" home="true" position="9" grounded="false" ball="true" shapePercent="48" lifePercent="100" />
+      <xmlAction number="1" commentId="1" actorHome="false" actorJersey="6">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="2" commentId="1" actorHome="false" actorJersey="3">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="false" actorJersey="7">
+        <xmlMove from="18" to="9" destination="player" destinationJersey="1" destinationHome="true" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="false" actorJersey="8">
+        <xmlMove from="5" to="6" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="false" actorJersey="5">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="true" actorJersey="3">
+        <xmlStandUp position="5" />
+      </xmlAction>
+      <xmlAction number="7" commentId="1" actorHome="true" actorJersey="8">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="true" actorJersey="4">
+        <xmlMove from="5" to="6" destination="player" destinationJersey="7" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="2">
+        <xmlStandUp position="6" />
+      </xmlAction>
+      <xmlAction number="10" commentId="2" actorHome="true" actorJersey="1">
+        <xmlBlockedMove position="9" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="false" actorJersey="6">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="2" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="2" actorHome="false" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="2" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="false" actorJersey="7">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="1" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="2" actorHome="false" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="true" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="3" actorHome="true" actorJersey="3">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="1" actorHome="true" actorJersey="8">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="17" commentId="2" actorHome="true" actorJersey="4">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="18" commentId="2" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="19" commentId="2" actorHome="true" actorJersey="1">
+        <xmlKeepBall position="9" />
+      </xmlAction>
+      <xmlAction number="20" commentId="1" actorHome="true" actorJersey="1">
+        <xmlBonus points="1" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlQuarterStatistics homeTeam="true" points="8" />
+    <xmlQuarterStatistics homeTeam="false" points="5" />
+  </xmlQuarter>
+  <xmlQuarter number="4">
+    <xmlTurn number="1" ball="0" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="45" grounded="false" ball="false" shapePercent="33" lifePercent="97" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="9" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="19" grounded="false" ball="true" shapePercent="34" lifePercent="98" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="36" grounded="false" ball="false" shapePercent="62" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="28" grounded="false" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="10" grounded="false" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="90" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="37" grounded="false" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="1" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="18" grounded="false" ball="false" shapePercent="48" lifePercent="95" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="27" grounded="false" ball="false" shapePercent="45" lifePercent="100" />
+      <xmlAction number="1" commentId="2" actorHome="true" actorJersey="2">
+        <xmlWait position="45" />
+      </xmlAction>
+      <xmlAction number="2" commentId="1" actorHome="true" actorJersey="4">
+        <xmlWait position="9" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="false" actorJersey="3">
+        <xmlMove from="19" to="29" />
+      </xmlAction>
+      <xmlAction number="4" commentId="3" actorHome="true" actorJersey="5">
+        <xmlMove from="36" to="35" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="false" actorJersey="8">
+        <xmlMove from="28" to="38" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="false" actorJersey="2">
+        <xmlMove from="10" to="20" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="false" actorJersey="1">
+        <xmlMove from="37" to="38" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="false" actorJersey="7">
+        <xmlMove from="1" to="11" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="true" actorJersey="3">
+        <xmlMove from="18" to="17" destination="player" destinationJersey="7" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="27" to="35" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="false" actorJersey="3">
+        <xmlKeepBall position="29" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="2" ball="0" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="45" grounded="false" ball="false" shapePercent="33" lifePercent="97" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="9" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="29" grounded="false" ball="true" shapePercent="34" lifePercent="98" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="35" grounded="false" ball="false" shapePercent="62" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="38" grounded="false" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="20" grounded="false" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="90" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="38" grounded="false" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="11" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="17" grounded="false" ball="false" shapePercent="48" lifePercent="95" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="35" grounded="false" ball="false" shapePercent="45" lifePercent="100" />
+      <xmlAction number="1" commentId="3" actorHome="true" actorJersey="2">
+        <xmlWait position="45" />
+      </xmlAction>
+      <xmlAction number="2" commentId="1" actorHome="true" actorJersey="4">
+        <xmlWait position="9" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="false" actorJersey="3">
+        <xmlMove from="29" to="39" />
+      </xmlAction>
+      <xmlAction number="4" commentId="3" actorHome="true" actorJersey="5">
+        <xmlMove from="35" to="43" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="false" actorJersey="8">
+        <xmlMove from="38" to="39" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="false" actorJersey="2">
+        <xmlMove from="20" to="30" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="false" actorJersey="1">
+        <xmlMove from="38" to="39" />
+      </xmlAction>
+      <xmlAction number="8" commentId="3" actorHome="false" actorJersey="7">
+        <xmlMove from="11" to="21" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="3">
+        <xmlMove from="17" to="25" destination="player" destinationJersey="7" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="35" to="43" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="11" commentId="1" actorHome="false" actorJersey="3">
+        <xmlKeepBall position="39" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="3" ball="0" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="45" grounded="false" ball="false" shapePercent="33" lifePercent="97" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="9" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="39" grounded="false" ball="true" shapePercent="34" lifePercent="98" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="43" grounded="false" ball="false" shapePercent="62" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="39" grounded="false" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="30" grounded="false" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="90" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="39" grounded="false" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="21" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="25" grounded="false" ball="false" shapePercent="48" lifePercent="95" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="43" grounded="false" ball="false" shapePercent="45" lifePercent="100" />
+      <xmlAction number="1" commentId="3" actorHome="true" actorJersey="2">
+        <xmlWait position="45" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="true" actorJersey="4">
+        <xmlWait position="9" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="false" actorJersey="3">
+        <xmlMove from="39" to="40" />
+      </xmlAction>
+      <xmlAction number="4" commentId="3" actorHome="true" actorJersey="5">
+        <xmlMove from="43" to="42" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="false" actorJersey="8">
+        <xmlMove from="39" to="40" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="false" actorJersey="2">
+        <xmlMove from="30" to="40" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="1">
+        <xmlMove from="39" to="40" />
+      </xmlAction>
+      <xmlAction number="8" commentId="3" actorHome="false" actorJersey="7">
+        <xmlMove from="21" to="31" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="3">
+        <xmlMove from="25" to="33" destination="player" destinationJersey="7" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="true" actorJersey="6">
+        <xmlMove from="43" to="42" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="11" commentId="1" actorHome="false" actorJersey="3">
+        <xmlKeepBall position="40" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="4" ball="0" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="45" grounded="false" ball="false" shapePercent="33" lifePercent="97" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="9" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="40" grounded="false" ball="true" shapePercent="34" lifePercent="98" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="42" grounded="false" ball="false" shapePercent="62" lifePercent="100" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="40" grounded="false" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="40" grounded="false" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="90" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="40" grounded="false" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="31" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="33" grounded="false" ball="false" shapePercent="48" lifePercent="95" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="42" grounded="false" ball="false" shapePercent="45" lifePercent="100" />
+      <xmlAction number="1" commentId="2" actorHome="true" actorJersey="2">
+        <xmlWait position="45" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="true" actorJersey="4">
+        <xmlWait position="9" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="false" actorJersey="3">
+        <xmlMove from="40" to="41" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="true" actorJersey="5">
+        <xmlMove from="42" to="41" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="5" commentId="3" actorHome="false" actorJersey="8">
+        <xmlMove from="40" to="41" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="false" actorJersey="2">
+        <xmlMove from="40" to="41" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="1">
+        <xmlMove from="40" to="41" />
+      </xmlAction>
+      <xmlAction number="8" commentId="3" actorHome="false" actorJersey="7">
+        <xmlMove from="31" to="41" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="true" actorJersey="3">
+        <xmlMove from="33" to="41" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="42" to="41" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="false" actorJersey="3">
+        <xmlKeepBall position="41" />
+      </xmlAction>
+      <xmlAction number="12" commentId="2" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="2" actorHome="false" actorJersey="2">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="1" actorHome="false" actorJersey="1">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="3" actorHome="false" actorJersey="7">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="5" ball="0" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="45" grounded="false" ball="false" shapePercent="33" lifePercent="97" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="9" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="41" grounded="false" ball="true" shapePercent="34" lifePercent="98" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="41" grounded="true" ball="false" shapePercent="62" lifePercent="98" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="41" grounded="true" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="90" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="41" grounded="true" ball="false" shapePercent="48" lifePercent="93" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="41" grounded="true" ball="false" shapePercent="45" lifePercent="98" />
+      <xmlAction number="1" commentId="3" actorHome="true" actorJersey="2">
+        <xmlMove from="45" to="44" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="true" actorJersey="4">
+        <xmlMove from="9" to="17" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="false" actorJersey="3">
+        <xmlMove from="41" to="42" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="true" actorJersey="5">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="5" commentId="2" actorHome="false" actorJersey="8">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="6" commentId="2" actorHome="false" actorJersey="2">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="false" actorJersey="1">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="8" commentId="3" actorHome="false" actorJersey="7">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="3">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="10" commentId="2" actorHome="true" actorJersey="6">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="11" commentId="1" actorHome="false" actorJersey="3">
+        <xmlKeepBall position="42" />
+      </xmlAction>
+      <xmlAction number="12" commentId="3" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="false" actorJersey="2">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="3" actorHome="false" actorJersey="1">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="1" actorHome="false" actorJersey="7">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="6" ball="0" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="44" grounded="false" ball="false" shapePercent="33" lifePercent="97" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="17" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="42" grounded="false" ball="true" shapePercent="34" lifePercent="98" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="41" grounded="true" ball="false" shapePercent="62" lifePercent="97" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="41" grounded="true" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="90" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="41" grounded="true" ball="false" shapePercent="48" lifePercent="91" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="41" grounded="false" ball="false" shapePercent="45" lifePercent="98" />
+      <xmlAction number="1" commentId="2" actorHome="true" actorJersey="2">
+        <xmlMove from="44" to="43" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="true" actorJersey="4">
+        <xmlMove from="17" to="25" destination="player" destinationJersey="3" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="false" actorJersey="3">
+        <xmlMove from="42" to="43" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="true" actorJersey="5">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="false" actorJersey="8">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="false" actorJersey="2">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="false" actorJersey="1">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="7">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="true" actorJersey="3">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="true" actorJersey="6">
+        <xmlMove from="41" to="42" destination="ballOwner" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" dropsBall="true" />
+      </xmlAction>
+      <xmlAction number="12" commentId="2" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="1" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="3" actorHome="false" actorJersey="2">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="7" ball="43" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="43" grounded="true" ball="false" shapePercent="33" lifePercent="97" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="25" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="43" grounded="true" ball="false" shapePercent="34" lifePercent="97" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="41" grounded="true" ball="false" shapePercent="62" lifePercent="96" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="41" grounded="true" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="90" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="41" grounded="false" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="41" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="41" grounded="true" ball="false" shapePercent="48" lifePercent="90" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="42" grounded="false" ball="false" shapePercent="45" lifePercent="98" />
+      <xmlAction number="1" commentId="2" actorHome="true" actorJersey="2">
+        <xmlStandUp position="43" />
+      </xmlAction>
+      <xmlAction number="2" commentId="1" actorHome="true" actorJersey="4">
+        <xmlMove from="25" to="33" destination="player" destinationJersey="1" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="false" actorJersey="3">
+        <xmlStandUp position="43" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="true" actorJersey="5">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="5" commentId="2" actorHome="false" actorJersey="8">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="false" actorJersey="2">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="false" actorJersey="1">
+        <xmlMove from="41" to="42" destination="ball" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="7">
+        <xmlMove from="41" to="42" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="true" actorJersey="3">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="10" commentId="1" actorHome="true" actorJersey="6">
+        <xmlBlockedMove position="42" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="true" actorJersey="2">
+        <xmlTakeBall position="43" />
+      </xmlAction>
+      <xmlAction number="12" commentId="2" actorHome="false" actorJersey="3">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="2" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="1" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="1" actorHome="false" actorJersey="1">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="1" actorHome="false" actorJersey="7">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="8" ball="0" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="43" grounded="false" ball="true" shapePercent="33" lifePercent="97" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="33" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="43" grounded="true" ball="false" shapePercent="34" lifePercent="97" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="41" grounded="true" ball="false" shapePercent="62" lifePercent="96" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="41" grounded="true" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="89" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="42" grounded="true" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="42" grounded="true" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="41" grounded="true" ball="false" shapePercent="48" lifePercent="88" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="42" grounded="false" ball="false" shapePercent="45" lifePercent="98" />
+      <xmlAction number="1" commentId="1" actorHome="true" actorJersey="2">
+        <xmlWait position="43" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="true" actorJersey="4">
+        <xmlWait position="33" />
+      </xmlAction>
+      <xmlAction number="3" commentId="2" actorHome="false" actorJersey="3">
+        <xmlStandUp position="43" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="true" actorJersey="5">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="false" actorJersey="8">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="false" actorJersey="2">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="1">
+        <xmlStandUp position="42" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="false" actorJersey="7">
+        <xmlStandUp position="42" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="3">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="true" actorJersey="6">
+        <xmlDontKnowMove position="42" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="true" actorJersey="2">
+        <xmlPass from="43" to="21" type="square" shape="Straight" end="13" />
+      </xmlAction>
+      <xmlAction number="12" commentId="1" actorHome="false" actorJersey="3">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="2" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="2" actorHome="false" actorJersey="1">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="9" ball="13" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="43" grounded="true" ball="false" shapePercent="33" lifePercent="95" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="33" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="43" grounded="true" ball="false" shapePercent="34" lifePercent="97" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="41" grounded="true" ball="false" shapePercent="62" lifePercent="96" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="41" grounded="true" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="88" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="42" grounded="true" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="42" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="41" grounded="true" ball="false" shapePercent="48" lifePercent="86" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="42" grounded="true" ball="false" shapePercent="45" lifePercent="97" />
+      <xmlAction number="1" commentId="2" actorHome="true" actorJersey="2">
+        <xmlStandUp position="43" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="true" actorJersey="4">
+        <xmlMove from="33" to="23" destination="ball" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="false" actorJersey="3">
+        <xmlStandUp position="43" />
+      </xmlAction>
+      <xmlAction number="4" commentId="1" actorHome="true" actorJersey="5">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="false" actorJersey="8">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="false" actorJersey="2">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="7" commentId="1" actorHome="false" actorJersey="1">
+        <xmlStandUp position="42" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="false" actorJersey="7">
+        <xmlMove from="42" to="32" destination="ball" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="3">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="10" commentId="2" actorHome="true" actorJersey="6">
+        <xmlStandUp position="42" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="2" actorHome="false" actorJersey="3">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="1" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="1" actorHome="false" actorJersey="1">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="10" ball="13" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="43" grounded="true" ball="false" shapePercent="33" lifePercent="93" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="23" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="43" grounded="true" ball="false" shapePercent="34" lifePercent="97" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="41" grounded="true" ball="false" shapePercent="62" lifePercent="96" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="41" grounded="true" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="87" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="42" grounded="true" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="32" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="41" grounded="true" ball="false" shapePercent="48" lifePercent="85" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="42" grounded="true" ball="false" shapePercent="45" lifePercent="95" />
+      <xmlAction number="1" commentId="1" actorHome="true" actorJersey="2">
+        <xmlStandUp position="43" />
+      </xmlAction>
+      <xmlAction number="2" commentId="1" actorHome="true" actorJersey="4">
+        <xmlMove from="23" to="13" destination="ball" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="false" actorJersey="3">
+        <xmlStandUp position="43" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="true" actorJersey="5">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="5" commentId="2" actorHome="false" actorJersey="8">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="false" actorJersey="2">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="1">
+        <xmlStandUp position="42" />
+      </xmlAction>
+      <xmlAction number="8" commentId="1" actorHome="false" actorJersey="7">
+        <xmlMove from="32" to="22" destination="ball" />
+      </xmlAction>
+      <xmlAction number="9" commentId="1" actorHome="true" actorJersey="3">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="10" commentId="2" actorHome="true" actorJersey="6">
+        <xmlStandUp position="42" />
+      </xmlAction>
+      <xmlAction number="11" commentId="3" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="3" actorHome="true" actorJersey="4">
+        <xmlTakeBall position="13" />
+      </xmlAction>
+      <xmlAction number="13" commentId="1" actorHome="false" actorJersey="3">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="1" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="2" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="3" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="2" actorHome="false" actorJersey="1">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="11" ball="0" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="43" grounded="true" ball="false" shapePercent="33" lifePercent="92" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="13" grounded="false" ball="true" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="43" grounded="true" ball="false" shapePercent="34" lifePercent="97" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="41" grounded="true" ball="false" shapePercent="62" lifePercent="96" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="55" lifePercent="85" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="41" grounded="true" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="85" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="42" grounded="true" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="22" grounded="false" ball="false" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="41" grounded="true" ball="false" shapePercent="48" lifePercent="84" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="42" grounded="false" ball="false" shapePercent="45" lifePercent="95" />
+      <xmlAction number="1" commentId="2" actorHome="true" actorJersey="2">
+        <xmlStandUp position="43" />
+      </xmlAction>
+      <xmlAction number="2" commentId="3" actorHome="true" actorJersey="4">
+        <xmlMove from="13" to="22" destination="player" destinationJersey="7" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="3" commentId="3" actorHome="false" actorJersey="3">
+        <xmlStandUp position="43" />
+      </xmlAction>
+      <xmlAction number="4" commentId="2" actorHome="true" actorJersey="5">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="false" actorJersey="8">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="6" commentId="3" actorHome="false" actorJersey="2">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="7" commentId="3" actorHome="false" actorJersey="1">
+        <xmlStandUp position="42" />
+      </xmlAction>
+      <xmlAction number="8" commentId="2" actorHome="false" actorJersey="7">
+        <xmlBlockedMove position="22" />
+      </xmlAction>
+      <xmlAction number="9" commentId="3" actorHome="true" actorJersey="3">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="10" commentId="3" actorHome="true" actorJersey="6">
+        <xmlDontKnowMove position="42" />
+      </xmlAction>
+      <xmlAction number="11" commentId="2" actorHome="true" actorJersey="2">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="3" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="1" actorHome="true" actorJersey="4">
+        <xmlPass from="22" to="21" type="square" shape="Straight" interceptorHome="false" interceptorJersey="7" />
+      </xmlAction>
+      <xmlAction number="13" commentId="1" actorHome="false" actorJersey="3">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="2" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="3" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="2" actorHome="false" actorJersey="2">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="16" commentId="3" actorHome="false" actorJersey="1">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="false" actorPosition="down" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="17" commentId="2" actorHome="false" actorJersey="7">
+        <xmlKeepBall position="22" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlTurn number="12" ball="0" homeScore="8" awayScore="5">
+      <xmlPlayerPosition jersey="2" initiative="55" home="true" position="43" grounded="false" ball="false" shapePercent="33" lifePercent="92" />
+      <xmlPlayerPosition jersey="4" initiative="54" home="true" position="22" grounded="false" ball="false" shapePercent="48" lifePercent="98" />
+      <xmlPlayerPosition jersey="3" initiative="40" home="false" position="43" grounded="true" ball="false" shapePercent="34" lifePercent="97" />
+      <xmlPlayerPosition jersey="5" initiative="33" home="true" position="41" grounded="true" ball="false" shapePercent="62" lifePercent="96" />
+      <xmlPlayerPosition jersey="8" initiative="20" home="false" position="41" grounded="true" ball="false" shapePercent="55" lifePercent="83" />
+      <xmlPlayerPosition jersey="2" initiative="20" home="false" position="41" grounded="true" ball="false" shapeStatus="tired" shapePercent="20" lifePercent="85" />
+      <xmlPlayerPosition jersey="1" initiative="20" home="false" position="42" grounded="true" ball="false" shapePercent="55" lifePercent="95" />
+      <xmlPlayerPosition jersey="7" initiative="20" home="false" position="22" grounded="false" ball="true" shapePercent="70" lifePercent="100" />
+      <xmlPlayerPosition jersey="3" initiative="18" home="true" position="41" grounded="false" ball="false" shapePercent="48" lifePercent="84" />
+      <xmlPlayerPosition jersey="6" initiative="0" home="true" position="42" grounded="false" ball="false" shapePercent="45" lifePercent="95" />
+      <xmlAction number="1" commentId="1" actorHome="true" actorJersey="2">
+        <xmlMove from="43" to="33" destination="player" destinationJersey="7" destinationHome="false" />
+      </xmlAction>
+      <xmlAction number="2" commentId="2" actorHome="true" actorJersey="4">
+        <xmlWait position="22" />
+      </xmlAction>
+      <xmlAction number="3" commentId="1" actorHome="false" actorJersey="3">
+        <xmlStandUp position="43" />
+      </xmlAction>
+      <xmlAction number="4" commentId="3" actorHome="true" actorJersey="5">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="5" commentId="1" actorHome="false" actorJersey="8">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="6" commentId="1" actorHome="false" actorJersey="2">
+        <xmlStandUp position="41" />
+      </xmlAction>
+      <xmlAction number="7" commentId="2" actorHome="false" actorJersey="1">
+        <xmlStandUp position="42" />
+      </xmlAction>
+      <xmlAction number="8" commentId="3" actorHome="false" actorJersey="7">
+        <xmlMove from="22" to="32" />
+      </xmlAction>
+      <xmlAction number="9" commentId="2" actorHome="true" actorJersey="3">
+        <xmlWait position="41" />
+      </xmlAction>
+      <xmlAction number="10" commentId="2" actorHome="true" actorJersey="6">
+        <xmlDontKnowMove position="42" />
+      </xmlAction>
+      <xmlAction number="11" commentId="1" actorHome="true" actorJersey="5">
+        <xmlAttack kind="sweep" victimHome="false" victimJersey="8" success="false" actorPosition="standing" victimPosition="standing" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="12" commentId="1" actorHome="false" actorJersey="8">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="3" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="13" commentId="3" actorHome="false" actorJersey="2">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="5" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="14" commentId="2" actorHome="false" actorJersey="1">
+        <xmlAttack kind="plaquage" victimHome="true" victimJersey="6" success="true" actorPosition="down" victimPosition="down" killPoints="0" />
+      </xmlAction>
+      <xmlAction number="15" commentId="1" actorHome="false" actorJersey="7">
+        <xmlPass from="32" toHome="false" toJersey="3" type="player" shape="Straight" end="42" />
+      </xmlAction>
+    </xmlTurn>
+    <xmlQuarterStatistics homeTeam="true" points="8" />
+    <xmlQuarterStatistics homeTeam="false" points="5" />
+  </xmlQuarter>
+</xmlGame>
+

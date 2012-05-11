@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Canvas - Sample</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style>
+*{
+	margin : 0;
+	padding:0;
+}
+
+* div{
+	position:relative;
+	float:left;
+}
+
+body {
+	max-width:1800px;
+}
+
+canvas{
+	z-index: 2;	
+}
+
+#home,#stadium,#away{
+	height:120px;
+	border : 1px solid black;
+	text-align:center;
+	vertical-align:center;
+}
+#stadium{
+	width:242px;
+}
+#home,#away{
+	width:332px;
+}
+#logoHome{
+	float:left;
+}
+
+#logoAway{
+	float:right;
+}
+
+#buttons{
+	position:fixed;
+	left:912px;
+}
+
+#homeTeam, #awayTeam{
+	width:157px;
+	height:390px; 
+	border:1px solid black;
+	font-size: 14px;
+}
+
+#numgrid{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+
+#phrasesLinks div{
+	width:92px;
+	background:#DDD;
+	border:1px solid black;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.score{
+	font-size:30px;
+	font-weight:bold;
+}
+
+.player{
+	position:relative;
+	width:100%;
+	height:47px;
+	border:1px solid gray;
+}
+
+.substitute{
+	background:#DDD;
+}
+
+
+.bars{
+	position:absolute;
+	bottom:6px;
+	left:4px;
+}
+
+.substitute .bars{
+	display:none;
+}
+
+.bar{
+	position:relative;
+	width:100px;
+	height:6px;
+	border:1px solid black;
+}
+
+.life{
+	background-color:red;
+}
+
+.form{
+	background-color:lightgray;
+}
+
+.lifeFiller{
+	background-color:green;
+	height:6px;
+}
+
+.formFiller{
+	background-color:cyan;
+	height:6px;
+}
+
+.number{
+	position:absolute;
+	right:6px;
+	bottom:3px;
+	border:1px solid black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:2px;
+	min-width:14px;
+	text-align:center;
+}
+
+.wounded, .dead, .redCard, .initiative{
+	position:absolute;
+	right:26px;
+	bottom:3px;
+	width:18px;
+	height:18px;
+	z-index:1;
+	background-size:18px 18px;
+}
+
+.redCard{
+	background-color:red;
+	width:9px;
+	height:15px;
+}
+
+.wounded {
+	background-image:url('img/wounded.jpg');
+}
+
+.dead {
+	background-image:url('img/dead.png');
+}
+
+.hidden{
+	display:none;
+}
+
+.loader{
+	background:white url('img/loader.gif') center center no-repeat;
+	position:absolute;
+	width:100%;
+	height:100%;
+	display:none;
+	z-index:100;
+	opacity:0.7;
+}
+		</style>
+		<script type="text/javascript" src="excanvas/excanvas.build.js" ></script>
+		<script type="text/javascript" src="DataView/DataView.build.js" ></script>
+		<script type="text/javascript" src="transparency/transparency.min.js" ></script>
+		<script type="text/javascript" src="xml2json/xml2json.build.js" ></script>
+		<script type="text/javascript" src="zip/zip.build.js" ></script>
+		<script type="text/javascript" src="build.js" ></script>
+	</head>
+	<body  onload="init();">
+		<div class="loader" id="loader"></div>
+		<div id="home">
+			<img id="logoHome" src=""/><br/>
+			<span class="name"></span><br/>
+			<span class="score">0</span>
+		</div>
+		<div id="stadium">
+			<span id="date">2100-01</span><br/>
+			<span id="stadiumName"></span><br/>
+			<span id="audience">10000</span><br/>
+			<span id="interest">1000</span><br/>
+			<span id="challenge"></span>
+		</div>
+		<div id="away">
+			<img id="logoAway" src=""/><br/>
+			<span class="name"></span><br/>
+			<span class="score">0</span>
+		</div>
+		<div id="loadButton">
+			<form action="http://localhost:3000/match" name="fileForm" method="POST" enctype="multipart/form-data" target="iframe" onsubmit="return false;">
+				<input type="file" id="matchLoader" name="matchLoader"/>
+				<input type="hidden" id="dateFile" name="dateFile" value=""/>
+			</form>
+		</div>
+		<div id="buttons" class="hidden">
+			<input type="button" onclick="playPause();" id="playpause" value="play"/>
+			<br/>
+			<span class="speed"></span>
+			<input type="button" onclick="updateSpeed(-1);" id="slower" value="-"/>
+			<span id="speed"></span>
+			<input type="button" onclick="updateSpeed(1);" id="faster" value="+"/>
+			<br/>
+			<span class="quarter"></span>
+			<input type="button" onclick="updateQuarter(-1);" id="previousQuarter" value="-" disabled="true"/>
+			<span id="quarter">1</span>
+			<input type="button" onclick="updateQuarter(1);" id="nextQuarter" value="+"/>
+			<br/>
+			<span class="phase"></span>
+			<input type="button" onclick="updatePhase(-2);" id="previousPhase" value="-" disabled="true"/>
+			<span id="phase">0</span>
+			<input type="button" onclick="updatePhase(0);" value="+"/>
+			<br/>
+			<input type="checkbox" id="isSimultaneousMoves" value="true" checked="checked" onchange="updateIsSimultaneousMoves()"/><label class="simultaneous" for="isSimultaneousMoves"></label>
+			<br/>
+			<input type="checkbox" onchange="displayGrid(this)" id="displayGrid"/><label class="grid" for="displayGrid"></label>
+			<br/>
+			<input type="button" onclick="location.reload();" value="quit"/>
+		</div>
+		<div>
+			<div id="homeTeam"></div>
+			<div>
+				<img src="img/field.jpg" width="594" height="392" id="field"/>  
+				<img src="img/field_num.gif" width="594" height="392" id="numgrid" class="hidden"/>  
+				<div style="width:594px;height:392px;position:absolute;top:0px;z-index:2;">
+					<canvas id="ub" width="594" height="392">  
+					</canvas>  
+				</div>
+			</div>
+			<div id="awayTeam"></div>
+		</div>
+		
+		<div id="phrases">
+			<div id="phrasesLinks">
+				<div class="compTab" onclick="selectConsole('compPhrases')"></div><br/>
+			</div>
+			<textarea disabled="disabled" rows="20" cols="100" id="compPhrases"></textarea>
+		</div>
+		<iframe id="iframe" name="iframe" src="blank.html" onload="onIframeLoad();"
+			style="position: absolute; left: 1px; top: 1px; height: 1px; width: 1px; visibility: hidden">
+		
+		</iframe>
+		<script id="scr"></script>
+	</body>
+</html>
