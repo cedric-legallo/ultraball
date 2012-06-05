@@ -201,7 +201,7 @@ canvas{
 			<span class="score">0</span>
 		</div>
 		<div id="loadButton">
-			<form action="http://localhost:3000/match" name="fileForm" method="POST" enctype="multipart/form-data" target="iframe" onsubmit="return false;">
+			<form action="http://ultraball.nodester.com/match" name="fileForm" method="POST" enctype="multipart/form-data" target="iframe" onsubmit="return false;">
 				<input type="file" id="matchLoader" name="matchLoader"/>
 				<input type="hidden" id="dateFile" name="dateFile" value=""/>
 			</form>
@@ -228,7 +228,7 @@ canvas{
 			<br/>
 			<input type="checkbox" onchange="displayGrid(this)" id="displayGrid"/><label class="grid" for="displayGrid"></label>
 			<br/>
-			<input type="button" onclick="location.reload();" value="quit"/>
+			<input type="button" onclick="quitMatch();" value="quit"/>
 		</div>
 		<div>
 			<div id="homeTeam"></div>
@@ -249,7 +249,7 @@ canvas{
 			</div>
 			<textarea disabled="disabled" rows="20" cols="100" id="compPhrases"></textarea>
 		</div>
-		<iframe id="iframe" name="iframe" src="blank.html" onload="onIframeLoad();"
+		<iframe id="iframe" name="iframe" onload="onIframeLoad();"
 			style="position: absolute; left: 1px; top: 1px; height: 1px; width: 1px; visibility: hidden">
 		
 		</iframe>

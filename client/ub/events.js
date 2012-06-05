@@ -29,7 +29,7 @@ function setGameDatas(data){
 	document.querySelector("#date").innerHTML = dataGame.competitioncode+" : "+dataGame.season+"-"+dataGame.competitionturn;
 	document.querySelector("#stadiumName").innerHTML = dataGame.stadium;
 	document.querySelector("#audience").innerHTML = dataGame.audience+lang.stadium.spectators;
-	document.querySelector("#interest").innerHTML = lang.stadium.iterest+dataGame.interest;
+	document.querySelector("#interest").innerHTML = lang.stadium.interest+dataGame.interest;
 	if (dataGame.challengeamnt > 0){
 		document.querySelector("#challenge").innerHTML = dataGame.challengeamnt+" €";
 	}
@@ -156,26 +156,41 @@ function updateIsSimultaneousMoves(){
 
 function init(){
 	lang = location.pathname.split('/')[1];
+	var search = location.search.substring(1).split('&');
+	var matchId = search[0].substring(6);
+	if (search[1]){
+		lang=search[1].substring(5);
+	}
 	comments=window["comments_"+lang]||window.comments_en;
 	lang = langs[lang] || langs.en;
     Transparency.render(document.getElementsByTagName("body")[0] ,lang);
-	var loader = document.getElementById('matchLoader');
-	if (!loader.addEventListener) {
-		loader.attachEvent("onchange", loadMatch);
-	}
-	else {
-		loader.addEventListener('change', loadMatch, false);
-	}
-
+	
 	field.src = 'img/field.jpg';
 	ball.src = 'img/ball.png';
-	try {
 		
+	try {
 		game = new Game(document.getElementById('ub').getContext('2d'));	
 		updateSpeed(0);
 	} catch(e){
 		console.error(e.msg);
 		return;
+	}
+	
+	if (matchId){
+		showLoader();
+		setTimeout(function(){
+			xmlhttpGet("http://ultraball.ludimail.net/xmlgame/"+matchId, setGameDatas);
+			onFinished();
+		}, 10);
+	}else {
+		var loader = document.getElementById('matchLoader');
+		if (!loader.addEventListener) {
+			loader.attachEvent("onchange", loadMatch);
+		}
+		else {
+			loader.addEventListener('change', loadMatch, false);
+		}
+		
 	}
 };
 
@@ -366,3 +381,29 @@ window.requestAnimFrame = (function(){
                 window.setTimeout(callback, 1000 / 60);
               };
     })();
+
+function xmlhttpGet(strURL,callback) {
+    var xmlHttpReq = false;
+    var self = this;
+    // Xhr per Mozilla/Safari/Ie7
+    if (window.XMLHttpRequest) {
+        self.xmlHttpReq = new XMLHttpRequest();
+    }
+    self.xmlHttpReq.open('GET', strURL, false);
+    self.xmlHttpReq.send();
+	callback(self.xmlHttpReq.responseText);
+}
+
+function quitMatch(){
+	try {
+		var iframe = parent.document.getElementById("matchFrame");
+		if (iframe){
+			iframe.parentNode.style.display = "none";
+		}else {
+			location.reload();
+		}
+	}catch (e){
+		location.reload();
+	}
+
+}
