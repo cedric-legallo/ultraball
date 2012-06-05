@@ -40,9 +40,12 @@ function setGameDatas(data){
 	document.querySelector("#home .name").innerHTML = comps[0].fullname;
 	document.querySelector("#home").style.backgroundColor = "#"+comps[0].color;
 	document.querySelector("#home").style.color = "#" + ((parseInt(comps[0].color,16) + 0x888888)%0xFFFFFF).toString(16);
+	document.getElementById("logoHome").src="http://ultraball.ludimail.net/images/logos/"+comps[0].code+".jpg";
+	document.getElementById("field").src="http://ultraball.ludimail.net/images/fields/"+comps[0].code+".jpg";;
 	document.querySelector("#away .name").innerHTML = comps[1].fullname;
 	document.querySelector("#away").style.backgroundColor = "#"+comps[1].color;
 	document.querySelector("#away").style.color = "#" + ((parseInt(comps[1].color,16) + 0x888888)%0xFFFFFF).toString(16);
+	document.getElementById("logoAway").src="http://ultraball.ludimail.net/images/logos/"+comps[1].code+".jpg";;
 	var players = [];
 	var length = Math.max(comps[0].xmlgameplayer.length, comps[1].xmlgameplayer.length);
 	game.setPivot(comps[0].xmlgameplayer.length);//longueur equipe home
@@ -253,7 +256,7 @@ function updateScore(point,away, diff){
 };
 
 function updatePlayerStatus(player, position){
-	var statusDiv = document.querySelector(["#p",player.code," .initiative"].join(''));
+	var statusDiv = document.querySelector("#p"+player.code+"_"+player.jersey+" .initiative");
 	if (position){
 		var status=position.lifestatus;
 		if (statusDiv){

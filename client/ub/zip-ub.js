@@ -24,56 +24,14 @@ function unzipBlob(blob, callback) {
 		}
 		firstEntry.getText(function(text){
 			logText(text);
-			var imgs = [];
-			if (logo1){
-				imgs.push({"img":logo1, "callback":setLogoHome});
-			}
-			if (logo2){
-				imgs.push({"img":logo2, "callback":setLogoAway});
-			}
-			if (field){
-				imgs.push({"img":field, "callback":setField});
-			}
-			loadUnzippedimages(imgs);
-			/*logo1.getData64URI("image/jpg",function(data){
-				setLogoHome(data);
-				logo2.getData64URI("image/jpg",function(data){
-					setLogoAway(data)
-					field.getData64URI("image/jpg", setField);
-				});
-			});*/
 		});
 	}, null, onerror);
 }
 
-function loadUnzippedimages(imgs){
-	if (imgs.length){
-		var img = imgs.pop();
-		img.img.getData64URI("image/jpg",function(data){
-			img.callback.apply(window, [data]);
-			loadUnzippedimages(imgs);
-		});
-	}else {
-		onFinished();
-	}
-}
-
 function logText(text) {
 	setGameDatas(text);
+	onFinished();
 }
-
-function setLogoHome(data){
-	document.getElementById("logoHome").src=data;
-}
-
-function setLogoAway(data){
-	document.getElementById("logoAway").src=data;
-}
-
-function setField(data){
-	document.getElementById("field").src=data;
-}
-
 zip.workerScriptsPath = "zip/";
 
 function loadMatch(evt){
@@ -93,7 +51,7 @@ function loadMatch(evt){
 			zipFs.exportBlob(callback, null, onerror);
 		});
 	} else {
-	  console.warn('The File APIs are not fully supported in this browser.');
+	  //console.warn('The File APIs are not fully supported in this browser.');
 	  var d = new Date();
 	  var form = document.forms.fileForm;
 	  form.dateFile.value=d.getTime();
@@ -101,12 +59,13 @@ function loadMatch(evt){
 	}
 }
 
+returnedValue=null;
+
 function onIframeLoad(){
-	console.log(1);
 	var d = document.forms.fileForm.dateFile.value;
 	if (d){
 		var scr = document.getElementById("scr");
-		scr.src = "http://localhost:3000/getMatch?id="+d;
+		scr.src = "http://ultraball.nodester.com/getMatch?id="+d;
 		var interval = setInterval(function(){
 			if (returnedValue){
 				clearInterval(interval);
