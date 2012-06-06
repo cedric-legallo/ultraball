@@ -1,6 +1,7 @@
 function Ball() {
 	DrawObj.call(this, 18);
 	this.player = null;
+	this.speedMult = 1;
 };
 
 Ball.prototype = new DrawObj();//Heritage
@@ -11,8 +12,8 @@ Ball.prototype.draw = function(canvas){
 	if (this.player){
 		//drawn  with player
 	}else {
-		this.x+=this.pasX ? this.pasX  : 0;
-		this.y+=this.pasY ? this.pasY  : 0;
+		this.x+=this.pasX ? this.pasX*this.speedMult  : 0;
+		this.y+=this.pasY ? this.pasY*this.speedMult  : 0;
 		var ballX = Math.round(this.x);
 		var ballY = Math.round(this.y);
 		var img = window["ball"];

@@ -1,4 +1,3 @@
-var field = new Image();
 var standing = new Image();
 var standball = new Image();
 var fallen = new Image();
@@ -37,11 +36,23 @@ function setGameDatas(data){
 	//composition des équipes
 	var comps = dataGame.xmlcomposition;
 	
+	//images des joueurs : http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=FFFF00&standing=1&ball=0
+	standing.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[0].color,"&standing=1&ball=0"].join('');
+	standingAway.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[1].color,"&standing=1&ball=0"].join('');
+	standball.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[0].color,"&standing=1&ball=1"].join('');
+	standballAway.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[1].color,"&standing=1&ball=1"].join('');
+	fallen.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[0].color,"&standing=0&ball=0"].join('');
+	fallenAway.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[1].color,"&standing=0&ball=0"].join('');
+	
 	document.querySelector("#home .name").innerHTML = comps[0].fullname;
 	document.querySelector("#home").style.backgroundColor = "#"+comps[0].color;
 	document.querySelector("#home").style.color = "#" + ((parseInt(comps[0].color,16) + 0x888888)%0xFFFFFF).toString(16);
 	document.getElementById("logoHome").src="http://ultraball.ludimail.net/images/logos/"+comps[0].code+".jpg";
-	document.getElementById("field").src="http://ultraball.ludimail.net/images/fields/"+comps[0].code+".jpg";;
+	try {
+		document.getElementById("field").src="http://ultraball.ludimail.net/images/fields/"+comps[0].code+".jpg";;
+	}catch (e){
+		document.getElementById("field").src='img/field.jpg';
+	}
 	document.querySelector("#away .name").innerHTML = comps[1].fullname;
 	document.querySelector("#away").style.backgroundColor = "#"+comps[1].color;
 	document.querySelector("#away").style.color = "#" + ((parseInt(comps[1].color,16) + 0x888888)%0xFFFFFF).toString(16);
@@ -64,14 +75,6 @@ function setGameDatas(data){
 		}
 	}
 	game.setCompositions(players);
-	//images des joueurs : http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=FFFF00&standing=1&ball=0
-	
-	standing.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[0].color,"&standing=1&ball=0"].join('');
-	standball.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[0].color,"&standing=1&ball=1"].join('');
-	fallen.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[0].color,"&standing=0&ball=0"].join('');
-	standingAway.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[1].color,"&standing=1&ball=0"].join('');
-	standballAway.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[1].color,"&standing=1&ball=1"].join('');
-	fallenAway.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[1].color,"&standing=0&ball=0"].join('');
 };
 
 function createPlayerDiv(player){
@@ -79,7 +82,8 @@ function createPlayerDiv(player){
 	playerDiv.className="player";
 	playerDiv.id = "p"+player.code+"_"+player.jersey;//JERSEY IS FOR CLONE
 	
-	var nameDiv = document.createElement("div");
+	var nameDiv = document.createElement("a");
+	nameDiv.href = "javascript:loadPlayer("+player.code+")";
 	nameDiv.innerHTML = player.name;
 	var numberDiv = document.createElement("div");
 	numberDiv.className="number";
@@ -165,12 +169,10 @@ function init(){
 	lang = langs[lang] || langs.en;
     Transparency.render(document.getElementsByTagName("body")[0] ,lang);
 	
-	field.src = 'img/field.jpg';
 	ball.src = 'img/ball.png';
 		
 	try {
 		game = new Game(document.getElementById('ub').getContext('2d'));	
-		updateSpeed(0);
 	} catch(e){
 		console.error(e.msg);
 		return;
@@ -236,26 +238,25 @@ function updateQuarter(diff){
 };
 
 function updatePhase(diff){
-	match.phase+=diff;
-	match.doStep(true);
+	if (match.phase == 1 && diff == -2){
+		updateQuarter(0);
+	}else {
+		match.phase+=diff;
+		match.doStep(true);
+	}
 	
 	game.draw();
 };
 
-function updateSpeed(diff){
-	game.speed += diff;
-	document.getElementById('speed').innerHTML = game.speed+"/7";
-	if (game.speed==0){
-		document.getElementById('slower').setAttribute("disabled",true);
-	}else {
-		document.getElementById('slower').removeAttribute("disabled");
-	}
-	if (game.speed==7){
-		document.getElementById('faster').setAttribute("disabled",true);
-	}else {
-		document.getElementById('faster').removeAttribute("disabled");
-	}
+function updateSpeed(val){
+	if (val) game.speed = val;
 };
+function updateBallSpeed(val){
+	game.ball.speedMult = val;
+}
+function updatePlayerSpeed(val){
+	Player.prototype.speedMult = val;
+}
 
 function updateScore(point,away, diff){
 	var node;
@@ -300,7 +301,7 @@ function updateQuarterLabel(q){
 };
 
 function updatePhaseLabel(id, p){
-	if (match.phase<=1){
+	if (match.phase<1){
 		document.getElementById('previousPhase').setAttribute("disabled",true);
 	}else {
 		document.getElementById('previousPhase').removeAttribute("disabled");
@@ -368,7 +369,7 @@ function showLoader(){
 
 function hideLoader(){
 	document.getElementById("loader").style.display="none";
-	updateQuarter(0);
+	setTimeout(function(){updateQuarter(0)}, 500);
 };
 
 window.requestAnimFrame = (function(){
@@ -398,6 +399,7 @@ function quitMatch(){
 	try {
 		var iframe = parent.document.getElementById("matchFrame");
 		if (iframe){
+			iframe.style.display = "none";
 			iframe.parentNode.style.display = "none";
 		}else {
 			location.reload();
@@ -406,4 +408,17 @@ function quitMatch(){
 		location.reload();
 	}
 
+}
+
+function loadPlayer(id){
+	try {
+		var iframe = parent.document.getElementById("matchFrame");
+		if (iframe){
+			parent.location.href = "http://ultraball.ludimail.net/fr/show_player/"+id;
+		}else {
+			location.href = "http://ultraball.ludimail.net/fr/show_player/"+id;
+		}
+	}catch (e){
+		location.href = "http://ultraball.ludimail.net/fr/show_player/"+id;
+	}
 }

@@ -12,6 +12,7 @@ function Player(player) {
 
 Player.prototype = new DrawObj();//Heritage
 Player.prototype.object=CONST.player.object;
+Player.prototype.speedMult=1;
 
 Player.prototype.init = function(){
 	this.status=CONST.player.standing;
@@ -21,8 +22,8 @@ Player.prototype.init = function(){
 
 Player.prototype.draw = function(canvas){
 	if (this.square == null) return;
-	this.x+=this.pasX;
-	this.y+=this.pasY;
+	this.x+=this.pasX*this.speedMult;
+	this.y+=this.pasY*this.speedMult;
 	var img;
 	switch (this.status) {
 		case CONST.player.withBall:

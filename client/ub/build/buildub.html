@@ -18,10 +18,6 @@ body {
 	max-width:1800px;
 }
 
-canvas{
-	z-index: 2;	
-}
-
 #home,#stadium,#away{
 	height:120px;
 	border : 1px solid black;
@@ -38,7 +34,7 @@ canvas{
 	float:left;
 }
 
-#logoAway{
+#logoAway, .right, #buttons select{
 	float:right;
 }
 
@@ -208,32 +204,58 @@ canvas{
 		</div>
 		<div id="buttons" class="hidden">
 			<input type="button" onclick="playPause();" id="playpause" value="play"/>
+			<input class="right" type="button" onclick="quitMatch();" value="quit"/>
+			<br/><br/>
+			<span class="speed"></span><br/>
+			<span class="actionSpeed"></span>
+			<select onchange="updateSpeed(this.value)">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option selected="selected">6</option>
+				<option>7</option>
+			</select>
 			<br/>
-			<span class="speed"></span>
-			<input type="button" onclick="updateSpeed(-1);" id="slower" value="-"/>
-			<span id="speed"></span>
-			<input type="button" onclick="updateSpeed(1);" id="faster" value="+"/>
-			<br/>
+			<span class="ballSpeed"></span>
+			<select onchange="updateBallSpeed(this.value)">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select><br/>
+			<span class="playerSpeed"></span>
+			<select onchange="updatePlayerSpeed(this.value)">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+			<br/><br/>
 			<span class="quarter"></span>
-			<input type="button" onclick="updateQuarter(-1);" id="previousQuarter" value="-" disabled="true"/>
-			<span id="quarter">1</span>
-			<input type="button" onclick="updateQuarter(1);" id="nextQuarter" value="+"/>
-			<br/>
+			<div class="right">
+				<input type="button" onclick="updateQuarter(-1);" id="previousQuarter" value="-" disabled="true"/>
+				<span id="quarter">1</span>
+				<input type="button" onclick="updateQuarter(1);" id="nextQuarter" value="+"/>
+			</div><br/>
 			<span class="phase"></span>
-			<input type="button" onclick="updatePhase(-2);" id="previousPhase" value="-" disabled="true"/>
-			<span id="phase">0</span>
-			<input type="button" onclick="updatePhase(0);" value="+"/>
-			<br/>
+			<div class="right">
+				<input type="button" onclick="updatePhase(-2);" id="previousPhase" value="-" disabled="true"/>
+				<span id="phase">0</span>
+				<input type="button" onclick="updatePhase(0);" value="+"/>
+			</div><br/><br/>
 			<input type="checkbox" id="isSimultaneousMoves" value="true" checked="checked" onchange="updateIsSimultaneousMoves()"/><label class="simultaneous" for="isSimultaneousMoves"></label>
 			<br/>
 			<input type="checkbox" onchange="displayGrid(this)" id="displayGrid"/><label class="grid" for="displayGrid"></label>
 			<br/>
-			<input type="button" onclick="quitMatch();" value="quit"/>
 		</div>
 		<div>
 			<div id="homeTeam"></div>
 			<div>
-				<img src="img/field.jpg" width="594" height="392" id="field"/>  
+				<img src="img/field.jpg" onerror="this.src='img/field.jpg'" width="594" height="392" id="field"/>  
 				<img src="img/field_num.gif" width="594" height="392" id="numgrid" class="hidden"/>  
 				<div style="width:594px;height:392px;position:absolute;top:0px;z-index:2;">
 					<canvas id="ub" width="594" height="392">  
