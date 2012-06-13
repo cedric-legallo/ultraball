@@ -199,8 +199,8 @@ function Match(data) {
 			}
 			actionParams.push(pass.end);
 			game.ball.move(pass.end-1);
-			this.randomActionString(actionString,actionParams);
 		}
+		this.randomActionString(actionString,actionParams);
 	};
 	
 	this.xmlshoot =  function (action, quick){
@@ -348,7 +348,13 @@ function Match(data) {
 	//MOVEMENT ACTIONS
 	this.xmlmove =  function (action){
 		var player = game.getPlayerByJersey(action.actorjersey,action.actorhome === 'false');
-		player.move(action.xmlmove.to-1);
+		var move = action.xmlmove;
+		var dest = move.to;
+		player.move(dest-1);
+		var destination = move.destination ||"case";
+		var actionParams = [player.name, dest];
+		if (destination == "player") actionParams.push(game.getPlayerByJersey(move.destinationjersey,move.destinationhome === 'false').name);
+		this.randomActionString("MoveTo"+this.capitaliseFirstLetter(destination), actionParams);
 	};
 	
 	this.xmlblockedmove =  function (action){

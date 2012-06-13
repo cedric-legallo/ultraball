@@ -14,8 +14,25 @@
 	float:left;
 }
 
+span{
+	font-family: 'Times New Roman';
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+a, a:visited {
+	color:#FF6100;
+	text-decoration: none;
+}
+
 body {
 	max-width:1800px;
+}
+
+textarea {
+	height:100%;
 }
 
 #home,#stadium,#away{
@@ -55,6 +72,13 @@ body {
 	z-index: 1;
 	top: 0;
 	left: 0;
+}
+
+#phrases{
+	position: absolute;
+	top: 516px;
+	bottom: 6px;
+	min-height:250px;
 }
 
 #phrasesLinks div{
@@ -121,9 +145,6 @@ body {
 }
 
 .number{
-	position:absolute;
-	right:6px;
-	bottom:3px;
 	border:1px solid black;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -131,6 +152,7 @@ body {
 	padding:2px;
 	min-width:14px;
 	text-align:center;
+	margin-right:5px;
 }
 
 .wounded, .dead, .redCard, .initiative{
@@ -269,7 +291,7 @@ body {
 			<div id="phrasesLinks">
 				<div class="compTab" onclick="selectConsole('compPhrases')"></div><br/>
 			</div>
-			<textarea disabled="disabled" rows="20" cols="100" id="compPhrases"></textarea>
+			<textarea disabled="disabled" cols="99" id="compPhrases"></textarea>
 		</div>
 		<iframe id="iframe" name="iframe" onload="onIframeLoad();"
 			style="position: absolute; left: 1px; top: 1px; height: 1px; width: 1px; visibility: hidden">

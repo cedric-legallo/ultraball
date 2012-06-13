@@ -44,7 +44,7 @@ function setGameDatas(data){
 	fallen.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[0].color,"&standing=0&ball=0"].join('');
 	fallenAway.src = ["http://ultraball.ludimail.net/en/graphics/gameplayerIcon?color=",comps[1].color,"&standing=0&ball=0"].join('');
 	
-	document.querySelector("#home .name").innerHTML = comps[0].fullname;
+	document.querySelector("#home .name").innerHTML = comps[0].fullname || comps[0].name;
 	document.querySelector("#home").style.backgroundColor = "#"+comps[0].color;
 	document.querySelector("#home").style.color = "#" + ((parseInt(comps[0].color,16) + 0x888888)%0xFFFFFF).toString(16);
 	document.getElementById("logoHome").src="http://ultraball.ludimail.net/images/logos/"+comps[0].code+".jpg";
@@ -53,7 +53,7 @@ function setGameDatas(data){
 	}catch (e){
 		document.getElementById("field").src='img/field.jpg';
 	}
-	document.querySelector("#away .name").innerHTML = comps[1].fullname;
+	document.querySelector("#away .name").innerHTML = comps[1].fullname || comps[1].name;
 	document.querySelector("#away").style.backgroundColor = "#"+comps[1].color;
 	document.querySelector("#away").style.color = "#" + ((parseInt(comps[1].color,16) + 0x888888)%0xFFFFFF).toString(16);
 	document.getElementById("logoAway").src="http://ultraball.ludimail.net/images/logos/"+comps[1].code+".jpg";;
@@ -82,12 +82,18 @@ function createPlayerDiv(player){
 	playerDiv.className="player";
 	playerDiv.id = "p"+player.code+"_"+player.jersey;//JERSEY IS FOR CLONE
 	
-	var nameDiv = document.createElement("a");
-	nameDiv.href = "javascript:loadPlayer("+player.code+")";
-	nameDiv.innerHTML = player.name;
 	var numberDiv = document.createElement("div");
 	numberDiv.className="number";
 	numberDiv.innerHTML = isNaN(parseInt(player.jerseynumber, 10)) ? player.jersey : player.jerseynumber;
+	var nameDiv = document.createElement("a");
+	nameDiv.href = "javascript:loadPlayer("+player.code+")";
+	var name =player.name
+	if (name.indexOf("&quot;") == -1){
+		name=name.substring(name.indexOf(".")+1);
+	}else {
+		name=name.substring(0, name.lastIndexOf("&quot;")+6);
+	}
+	nameDiv.innerHTML = name;
 	
 	var barsDiv = document.createElement("div");
 	barsDiv.className="bars";
@@ -124,7 +130,8 @@ function createPlayerDiv(player){
 				lang.players.notransplants,
 				"\n"].join(''));
 	}
-	
+
+	playerDiv.appendChild(numberDiv);
 	playerDiv.appendChild(nameDiv);
 	var statusDiv = document.createElement("div");
 	if (player.control !== 'normal'){
@@ -138,7 +145,6 @@ function createPlayerDiv(player){
 	}
 	playerDiv.appendChild(statusDiv);
 	playerDiv.appendChild(barsDiv);
-	playerDiv.appendChild(numberDiv);
 	return playerDiv;
 };
 
@@ -328,8 +334,7 @@ function initConsole(id){
 		}
 		phrases = document.createElement("textarea");
 		phrases.disabled="disabled";
-		phrases.rows=20;
-		phrases.cols=100;
+		phrases.cols=99;
 		phrases.id=id;
 		
 		document.getElementById('phrasesLinks').appendChild(linkDiv);
