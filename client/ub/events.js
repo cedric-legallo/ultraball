@@ -86,7 +86,10 @@ function createPlayerDiv(player){
 	numberDiv.className="number";
 	numberDiv.innerHTML = isNaN(parseInt(player.jerseynumber, 10)) ? player.jersey : player.jerseynumber;
 	var nameDiv = document.createElement("a");
-	nameDiv.href = "javascript:loadPlayer("+player.code+")";
+	nameDiv.href = "#";
+	nameDiv.addEventListener("click", function(){
+		loadPlayer(player.code);
+	}, false);
 	var name =player.name
 	if (name.indexOf("&quot;") == -1){
 		name=name.substring(name.indexOf(".")+1);
@@ -291,9 +294,14 @@ function updatePlayerStatus(player, position){
 				statusDiv.innerHTML=position.initiative;
 			}
 		}
-		document.querySelector("#p"+player.code+"_"+player.jersey+" .lifeFiller").style.width=position.lifepercent+"px";
-		document.querySelector("#p"+player.code+"_"+player.jersey+" .formFiller").style.width=position.shapepercent+"px";
-		document.getElementById("p"+player.code+"_"+player.jersey).className="player";
+		var qsJersey = "p"+player.code+"_"+player.jersey;
+		var node = document.querySelector("#"+qsJersey+" .lifeFiller");
+		node.style.width = position.lifepercent+"px";
+		node.title = position.lifepercent;
+		node = document.querySelector("#"+qsJersey+" .formFiller");
+		node.style.width = position.shapepercent+"px";
+		node.title = position.shapepercent;
+		document.getElementById(qsJersey).className="player";
 	}else {
 		if (statusDiv){
 			statusDiv.innerHTML="";
@@ -314,14 +322,13 @@ function updatePhaseLabel(id, p){
 	}
 	document.getElementById("phase").innerHTML=p;
 	if (p){
-		updateConsole(id, ["____________________________________\nPhase ", p, "\n\n"].join(''));
+		updateConsole(id, ["\nPhase ", p,"\n____________________________________\n\n"].join(''));
 	}
 };
 
 function updateConsole(id, msg){
 	var phrases = document.getElementById(id);
-	phrases.value += msg;
-	phrases.scrollTop = phrases.scrollHeight;
+	phrases.value = msg + phrases.value;
 };
 
 function initConsole(id){
@@ -417,11 +424,15 @@ function quitMatch(){
 
 function loadPlayer(id){
 	try {
-		var iframe = parent.document.getElementById("matchFrame");
-		if (iframe){
-			parent.location.href = "http://ultraball.ludimail.net/fr/show_player/"+id;
+		if (event && (event.ctrlKey || event.shiftKey || event.button !== 0)){
+			window.open("http://ultraball.ludimail.net/fr/show_player/"+id);
 		}else {
-			location.href = "http://ultraball.ludimail.net/fr/show_player/"+id;
+			var iframe = parent.document.getElementById("matchFrame");
+			if (iframe){
+				parent.location.href = "http://ultraball.ludimail.net/fr/show_player/"+id;
+			}else {
+				location.href = "http://ultraball.ludimail.net/fr/show_player/"+id;
+			}
 		}
 	}catch (e){
 		location.href = "http://ultraball.ludimail.net/fr/show_player/"+id;
