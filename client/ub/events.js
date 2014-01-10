@@ -29,6 +29,9 @@ function setGameDatas(data){
 	document.querySelector("#stadiumName").innerHTML = dataGame.stadium;
 	document.querySelector("#audience").innerHTML = dataGame.audience+lang.stadium.spectators;
 	document.querySelector("#interest").innerHTML = lang.stadium.interest+dataGame.interest;
+	var search = window.location.search;
+	var ampIndex = search.indexOf('&');
+	document.querySelector("#gameId").innerHTML = (ampIndex > 0) ? search.substring(7, ampIndex) : search.substring(7);
 	if (dataGame.challengeamnt > 0){
 		document.querySelector("#challenge").innerHTML = dataGame.challengeamnt+" €";
 	}

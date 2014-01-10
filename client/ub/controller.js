@@ -312,22 +312,24 @@ function Match(data) {
 			if (grenade.victimhasball === "true"){
 				game.ball.drop();
 			}
-			if (grenade.xmlvictim.length){
-				var victims = grenade.xmlvictim;
-				for (var i = victims.length-1; i>=0; i--){
-					var victim = victims[i];
+			if (grenade.xmlvictim){
+				if (grenade.xmlvictim.length){
+					var victims = grenade.xmlvictim;
+					for (var i = victims.length-1; i>=0; i--){
+						var victim = victims[i];
+						player = game.getPlayerByJersey(victim.jersey,victim.home === 'false');
+						player.fall();
+					}
+					player=game.getPlayerByJersey(action.actorjersey,action.actorhome==="false");
+					this.randomActionString("GrenadeStun",[player.name,grenade.to,grenade.xmlvictim.length]);
+				}else if (grenade.xmlvictim){
+					var victim = grenade.xmlvictim;
 					player = game.getPlayerByJersey(victim.jersey,victim.home === 'false');
 					player.fall();
+					player=game.getPlayerByJersey(action.actorjersey,action.actorhome==="false");
+					this.randomActionString("GrenadeStun",[player.name,grenade.to,1]);
 				}
-				player=game.getPlayerByJersey(action.actorjersey,action.actorhome==="false");
-				this.randomActionString("GrenadeStun",[player.name,grenade.to,grenade.xmlvictim.length]);
-			}else if (grenade.xmlvictim){
-				var victim = grenade.xmlvictim;
-				player = game.getPlayerByJersey(victim.jersey,victim.home === 'false');
-				player.fall();
-				player=game.getPlayerByJersey(action.actorjersey,action.actorhome==="false");
-				this.randomActionString("GrenadeStun",[player.name,grenade.to,1]);
-			}
+			}//else que des branchies too bad pas de victim
 		}//TODO pas d'autres types de grenades pour le moment ?
 	};
 	

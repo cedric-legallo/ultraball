@@ -186,3 +186,7 @@ textarea {
 	z-index:100;
 	opacity:0.7;
 }
+
+.compTab{
+	height:16px;
+}
